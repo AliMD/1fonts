@@ -1,0 +1,18 @@
+fonts_list = Badr, Baran, Bardiya, Compset, Davat, Elham, EsfehanBold, Fantezy, Farnaz, Ferdosi, Hamid, Helal, Homa, JadidBold, Jalal, KoodakBold, Kourosh, Lotus, Mahsa, MehrBold, Mitra, Morvarid, Narm, NasimBold, Nazanin, Roya, SetarehBold, Shiraz, SinaBold, Tabassom, Tehran, TitrBold, TitrTGEBold, Traffic, VahidBold, Yagut, Yas, Yekan, Zar, Ziba
+fonts_folder = 'fonts/'
+
+quote(str)
+  unquote("'")+str+unquote("'")
+
+fontface(fontname)
+  @font-face
+    font-family quote(fontname)
+    src url(fonts_folder+'B'+fontname+'.eot')
+    src url(fonts_folder+'B'+fontname+'.eot?#iefix') format('embedded-opentype'),
+        url(fonts_folder+'B'+fontname+'.woff') format('woff'),
+        url(fonts_folder+'B'+fontname+'.ttf') format('truetype')
+    font-weight normal
+    font-style normal
+
+for i in fonts_list
+  fontface i
