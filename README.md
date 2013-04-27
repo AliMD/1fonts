@@ -23,7 +23,7 @@ Or include `1fonts.styl` in your stylus project
 There are 2 ways to use 1fonts in your template:  
 * use `font-family` in your css file
 * add specific `className` to your element in html  
-Please pay attention about `className` and `fontName`capitalize
+Please pay attention about `className` and `fontName` are case-sensitive.
 
 ## TODO
 * Add more Persian fonts.
