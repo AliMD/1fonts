@@ -10,10 +10,11 @@ for(var i in fontsList){
       .attr('value',fontsList[i])
       .html(fontsList[i])
   );
-
 }
 
 $fontSellect
   .change(function () {
-    $fontPreview.css('font-family',$(this).val());
+    $fontPreview
+      .removeClass()
+      .addClass($(this).val());
   });

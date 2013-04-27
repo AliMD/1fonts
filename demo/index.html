@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="pygment_trac.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link href='http://alimd.github.io/libs/1fonts/1/1fonts.css' rel='stylesheet' type='text/css' />
   <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700" />
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -46,9 +47,11 @@
         <a name="demo" class="anchor" href="#demo"><span class="mini-icon mini-icon-link"></span></a>Demo
       </h2>
       <div class="demo">
-        <label for="fontSellect">Sellect Font</label>
-        <select id="fontSellect" name="fontSellect"></select>
-        <section class="fa" id="fontPreview">
+        <label for="fontSellect">Select Font</label>
+        <select id="fontSellect" name="fontSellect">
+          <option value="">Default</option>
+        </select>
+        <section id="fontPreview">
           <h3>تست متن فارسی با فونت دلخواه</h3>
           <p>
             با توجه به حجم بالای فونت ها لطفا بعد از تقییر فونت شکیبا باشید.<br/>
