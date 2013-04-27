@@ -1,11 +1,13 @@
-# 1Fonts - Persian web fonts gallery.
-1Fonts is a persian fonts gallery for web developers.
+# 1Fonts - Persian Web Fonts.
+1Fonts is a Persian fonts gallery for web developers.
 All fonts optimized and fixed issues for using in web.
 
 ## Features
 * Easy to use
 * IE6+ support
-* Inclute 3 font types (eot, ttf, woff)
+* Font Class
+* Include 3 font types (eot, ttf, woff)
+* Stylus version available
 
 ## Demo
 [alimd.github.io/1fonts](http://alimd.github.io/1fonts)
@@ -16,9 +18,11 @@ Copy the code as the first element in the `<head>` of your HTML document.
 <link href='http://alimd.github.io/libs/1fonts/1/1fonts.css' rel='stylesheet' type='text/css' />
 ```
 
+Or include `1fonts.styl` in your stylus project
+
 ## TODO
-* Add more persian fonts.
-* Find svg version !
+* Add more Persian fonts.
+* Find SVG version !
 
 ## A 1Devs Project
 Supported by <b>The<i>One</i>Developers.</b>
