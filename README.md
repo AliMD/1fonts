@@ -20,6 +20,11 @@ Copy the code as the first element in the `<head>` of your HTML document.
   
 Or include `1fonts.styl` in your stylus project
 
+There are 2 ways to use 1fonts in your template:  
+1. use `font-family` in your css file
+1. add specific `className` to your element in html
+Please pay attention about `className` and `fontName`capitalize
+
 ## TODO
 * Add more Persian fonts.
 * Find SVG version !
