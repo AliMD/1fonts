@@ -1,5 +1,19 @@
+/*
+ * 1Fonts v1.0rc1 - Persian Web Fonts.
+ *
+ * 1Fonts is a Persian fonts gallery for web developers.
+ * All fonts optimized and fixed issues for using in web.
+ * 
+ * Copyright 2012-2013 Ali Mihandoost (i@ali.md)
+ * 
+ * http://alimd.github.io/1fonts
+ *
+ */
+
+// Configuration - You can edit for costume build
 fonts_list = Badr, Baran, Bardiya, Compset, Davat, Elham, EsfehanBold, Fantezy, Farnaz, Ferdosi, Hamid, Helal, Homa, JadidBold, Jalal, KoodakBold, Kourosh, Lotus, Mahsa, MehrBold, Mitra, Morvarid, Narm, NasimBold, Nazanin, Roya, SetarehBold, Shiraz, SinaBold, Tabassom, Tehran, TitrBold, TitrTGEBold, Traffic, VahidBold, Yagut, Yas, Yekan, Zar, Ziba
 fonts_folder = 'fonts/'
+fonts_class = true
 
 quote(str)
   unquote("'")+str+unquote("'")
@@ -16,3 +30,6 @@ fontface(fontname)
 
 for i in fonts_list
   fontface i
+  if fonts_class
+    {'.'+i}
+      font-family i, Verdana, Geneva, sans-serif
