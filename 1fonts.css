@@ -12,7 +12,7 @@
 @font-face {
   font-family: 'badr';
   src: url("fonts/badr.eot");
-  src: local('B Badr'), url("fonts/badr.eot?#iefix") format('embedded-opentype'), url("fonts/badr.woff") format('woff'), url("fonts/badr.ttf") format('truetype');
+  src: local('B Badr'), url("fonts/badr.woff") format('woff'), url("fonts/badr.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,7 +22,7 @@
 @font-face {
   font-family: 'baran';
   src: url("fonts/baran.eot");
-  src: local('B Baran'), url("fonts/baran.eot?#iefix") format('embedded-opentype'), url("fonts/baran.woff") format('woff'), url("fonts/baran.ttf") format('truetype');
+  src: local('B Baran'), url("fonts/baran.woff") format('woff'), url("fonts/baran.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,7 +32,7 @@
 @font-face {
   font-family: 'bardiya';
   src: url("fonts/bardiya.eot");
-  src: local('B Bardiya'), url("fonts/bardiya.eot?#iefix") format('embedded-opentype'), url("fonts/bardiya.woff") format('woff'), url("fonts/bardiya.ttf") format('truetype');
+  src: local('B Bardiya'), url("fonts/bardiya.woff") format('woff'), url("fonts/bardiya.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -42,7 +42,7 @@
 @font-face {
   font-family: 'compset';
   src: url("fonts/compset.eot");
-  src: local('B Compset'), url("fonts/compset.eot?#iefix") format('embedded-opentype'), url("fonts/compset.woff") format('woff'), url("fonts/compset.ttf") format('truetype');
+  src: local('B Compset'), url("fonts/compset.woff") format('woff'), url("fonts/compset.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -52,7 +52,7 @@
 @font-face {
   font-family: 'davat';
   src: url("fonts/davat.eot");
-  src: local('B Davat'), url("fonts/davat.eot?#iefix") format('embedded-opentype'), url("fonts/davat.woff") format('woff'), url("fonts/davat.ttf") format('truetype');
+  src: local('B Davat'), url("fonts/davat.woff") format('woff'), url("fonts/davat.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -62,7 +62,7 @@
 @font-face {
   font-family: 'elham';
   src: url("fonts/elham.eot");
-  src: local('B Elham'), url("fonts/elham.eot?#iefix") format('embedded-opentype'), url("fonts/elham.woff") format('woff'), url("fonts/elham.ttf") format('truetype');
+  src: local('B Elham'), url("fonts/elham.woff") format('woff'), url("fonts/elham.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -72,7 +72,7 @@
 @font-face {
   font-family: 'esfehan';
   src: url("fonts/esfehanbold.eot");
-  src: local('B Esfehan'), url("fonts/esfehanbold.eot?#iefix") format('embedded-opentype'), url("fonts/esfehanbold.woff") format('woff'), url("fonts/esfehanbold.ttf") format('truetype');
+  src: local('B Esfehan'), url("fonts/esfehanbold.woff") format('woff'), url("fonts/esfehanbold.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -82,7 +82,7 @@
 @font-face {
   font-family: 'fantezy';
   src: url("fonts/fantezy.eot");
-  src: local('B Fantezy'), url("fonts/fantezy.eot?#iefix") format('embedded-opentype'), url("fonts/fantezy.woff") format('woff'), url("fonts/fantezy.ttf") format('truetype');
+  src: local('B Fantezy'), url("fonts/fantezy.woff") format('woff'), url("fonts/fantezy.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -92,7 +92,7 @@
 @font-face {
   font-family: 'farnaz';
   src: url("fonts/farnaz.eot");
-  src: local('B Farnaz'), url("fonts/farnaz.eot?#iefix") format('embedded-opentype'), url("fonts/farnaz.woff") format('woff'), url("fonts/farnaz.ttf") format('truetype');
+  src: local('B Farnaz'), url("fonts/farnaz.woff") format('woff'), url("fonts/farnaz.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -102,7 +102,7 @@
 @font-face {
   font-family: 'ferdosi';
   src: url("fonts/ferdosi.eot");
-  src: local('B Ferdosi'), url("fonts/ferdosi.eot?#iefix") format('embedded-opentype'), url("fonts/ferdosi.woff") format('woff'), url("fonts/ferdosi.ttf") format('truetype');
+  src: local('B Ferdosi'), url("fonts/ferdosi.woff") format('woff'), url("fonts/ferdosi.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -112,7 +112,7 @@
 @font-face {
   font-family: 'hamid';
   src: url("fonts/hamid.eot");
-  src: local('B Hamid'), url("fonts/hamid.eot?#iefix") format('embedded-opentype'), url("fonts/hamid.woff") format('woff'), url("fonts/hamid.ttf") format('truetype');
+  src: local('B Hamid'), url("fonts/hamid.woff") format('woff'), url("fonts/hamid.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -122,7 +122,7 @@
 @font-face {
   font-family: 'helal';
   src: url("fonts/helal.eot");
-  src: local('B Helal'), url("fonts/helal.eot?#iefix") format('embedded-opentype'), url("fonts/helal.woff") format('woff'), url("fonts/helal.ttf") format('truetype');
+  src: local('B Helal'), url("fonts/helal.woff") format('woff'), url("fonts/helal.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -132,7 +132,7 @@
 @font-face {
   font-family: 'homa';
   src: url("fonts/homa.eot");
-  src: local('B Homa'), url("fonts/homa.eot?#iefix") format('embedded-opentype'), url("fonts/homa.woff") format('woff'), url("fonts/homa.ttf") format('truetype');
+  src: local('B Homa'), url("fonts/homa.woff") format('woff'), url("fonts/homa.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -142,7 +142,7 @@
 @font-face {
   font-family: 'jadid';
   src: url("fonts/jadidbold.eot");
-  src: local('B Jadid'), url("fonts/jadidbold.eot?#iefix") format('embedded-opentype'), url("fonts/jadidbold.woff") format('woff'), url("fonts/jadidbold.ttf") format('truetype');
+  src: local('B Jadid'), url("fonts/jadidbold.woff") format('woff'), url("fonts/jadidbold.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -152,7 +152,7 @@
 @font-face {
   font-family: 'jalal';
   src: url("fonts/jalal.eot");
-  src: local('B Jalal'), url("fonts/jalal.eot?#iefix") format('embedded-opentype'), url("fonts/jalal.woff") format('woff'), url("fonts/jalal.ttf") format('truetype');
+  src: local('B Jalal'), url("fonts/jalal.woff") format('woff'), url("fonts/jalal.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -162,7 +162,7 @@
 @font-face {
   font-family: 'koodak';
   src: url("fonts/koodakbold.eot");
-  src: local('B Koodak'), url("fonts/koodakbold.eot?#iefix") format('embedded-opentype'), url("fonts/koodakbold.woff") format('woff'), url("fonts/koodakbold.ttf") format('truetype');
+  src: local('B Koodak'), url("fonts/koodakbold.woff") format('woff'), url("fonts/koodakbold.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -172,7 +172,7 @@
 @font-face {
   font-family: 'kourosh';
   src: url("fonts/kourosh.eot");
-  src: local('B Kourosh'), url("fonts/kourosh.eot?#iefix") format('embedded-opentype'), url("fonts/kourosh.woff") format('woff'), url("fonts/kourosh.ttf") format('truetype');
+  src: local('B Kourosh'), url("fonts/kourosh.woff") format('woff'), url("fonts/kourosh.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -182,7 +182,7 @@
 @font-face {
   font-family: 'lotus';
   src: url("fonts/lotus.eot");
-  src: local('B Lotus'), url("fonts/lotus.eot?#iefix") format('embedded-opentype'), url("fonts/lotus.woff") format('woff'), url("fonts/lotus.ttf") format('truetype');
+  src: local('B Lotus'), url("fonts/lotus.woff") format('woff'), url("fonts/lotus.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -192,7 +192,7 @@
 @font-face {
   font-family: 'mahsa';
   src: url("fonts/mahsa.eot");
-  src: local('B Mahsa'), url("fonts/mahsa.eot?#iefix") format('embedded-opentype'), url("fonts/mahsa.woff") format('woff'), url("fonts/mahsa.ttf") format('truetype');
+  src: local('B Mahsa'), url("fonts/mahsa.woff") format('woff'), url("fonts/mahsa.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -202,7 +202,7 @@
 @font-face {
   font-family: 'mehr';
   src: url("fonts/mehrbold.eot");
-  src: local('B Mehr'), url("fonts/mehrbold.eot?#iefix") format('embedded-opentype'), url("fonts/mehrbold.woff") format('woff'), url("fonts/mehrbold.ttf") format('truetype');
+  src: local('B Mehr'), url("fonts/mehrbold.woff") format('woff'), url("fonts/mehrbold.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -212,7 +212,7 @@
 @font-face {
   font-family: 'mitra';
   src: url("fonts/mitra.eot");
-  src: local('B Mitra'), url("fonts/mitra.eot?#iefix") format('embedded-opentype'), url("fonts/mitra.woff") format('woff'), url("fonts/mitra.ttf") format('truetype');
+  src: local('B Mitra'), url("fonts/mitra.woff") format('woff'), url("fonts/mitra.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -222,7 +222,7 @@
 @font-face {
   font-family: 'morvarid';
   src: url("fonts/morvarid.eot");
-  src: local('B Morvarid'), url("fonts/morvarid.eot?#iefix") format('embedded-opentype'), url("fonts/morvarid.woff") format('woff'), url("fonts/morvarid.ttf") format('truetype');
+  src: local('B Morvarid'), url("fonts/morvarid.woff") format('woff'), url("fonts/morvarid.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -232,7 +232,7 @@
 @font-face {
   font-family: 'narm';
   src: url("fonts/narm.eot");
-  src: local('B Narm'), url("fonts/narm.eot?#iefix") format('embedded-opentype'), url("fonts/narm.woff") format('woff'), url("fonts/narm.ttf") format('truetype');
+  src: local('B Narm'), url("fonts/narm.woff") format('woff'), url("fonts/narm.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -242,7 +242,7 @@
 @font-face {
   font-family: 'nasim';
   src: url("fonts/nasimbold.eot");
-  src: local('B Nasim'), url("fonts/nasimbold.eot?#iefix") format('embedded-opentype'), url("fonts/nasimbold.woff") format('woff'), url("fonts/nasimbold.ttf") format('truetype');
+  src: local('B Nasim'), url("fonts/nasimbold.woff") format('woff'), url("fonts/nasimbold.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -252,7 +252,7 @@
 @font-face {
   font-family: 'nazanin';
   src: url("fonts/nazanin.eot");
-  src: local('B Nazanin'), url("fonts/nazanin.eot?#iefix") format('embedded-opentype'), url("fonts/nazanin.woff") format('woff'), url("fonts/nazanin.ttf") format('truetype');
+  src: local('B Nazanin'), url("fonts/nazanin.woff") format('woff'), url("fonts/nazanin.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -262,7 +262,7 @@
 @font-face {
   font-family: 'roya';
   src: url("fonts/roya.eot");
-  src: local('B Roya'), url("fonts/roya.eot?#iefix") format('embedded-opentype'), url("fonts/roya.woff") format('woff'), url("fonts/roya.ttf") format('truetype');
+  src: local('B Roya'), url("fonts/roya.woff") format('woff'), url("fonts/roya.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -272,7 +272,7 @@
 @font-face {
   font-family: 'setareh';
   src: url("fonts/setarehbold.eot");
-  src: local('B Setareh'), url("fonts/setarehbold.eot?#iefix") format('embedded-opentype'), url("fonts/setarehbold.woff") format('woff'), url("fonts/setarehbold.ttf") format('truetype');
+  src: local('B Setareh'), url("fonts/setarehbold.woff") format('woff'), url("fonts/setarehbold.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -282,7 +282,7 @@
 @font-face {
   font-family: 'shiraz';
   src: url("fonts/shiraz.eot");
-  src: local('B Shiraz'), url("fonts/shiraz.eot?#iefix") format('embedded-opentype'), url("fonts/shiraz.woff") format('woff'), url("fonts/shiraz.ttf") format('truetype');
+  src: local('B Shiraz'), url("fonts/shiraz.woff") format('woff'), url("fonts/shiraz.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -292,7 +292,7 @@
 @font-face {
   font-family: 'sina';
   src: url("fonts/sinabold.eot");
-  src: local('B Sina'), url("fonts/sinabold.eot?#iefix") format('embedded-opentype'), url("fonts/sinabold.woff") format('woff'), url("fonts/sinabold.ttf") format('truetype');
+  src: local('B Sina'), url("fonts/sinabold.woff") format('woff'), url("fonts/sinabold.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -302,7 +302,7 @@
 @font-face {
   font-family: 'tabassom';
   src: url("fonts/tabassom.eot");
-  src: local('B Tabassom'), url("fonts/tabassom.eot?#iefix") format('embedded-opentype'), url("fonts/tabassom.woff") format('woff'), url("fonts/tabassom.ttf") format('truetype');
+  src: local('B Tabassom'), url("fonts/tabassom.woff") format('woff'), url("fonts/tabassom.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -312,7 +312,7 @@
 @font-face {
   font-family: 'tehran';
   src: url("fonts/tehran.eot");
-  src: local('B Tehran'), url("fonts/tehran.eot?#iefix") format('embedded-opentype'), url("fonts/tehran.woff") format('woff'), url("fonts/tehran.ttf") format('truetype');
+  src: local('B Tehran'), url("fonts/tehran.woff") format('woff'), url("fonts/tehran.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -322,7 +322,7 @@
 @font-face {
   font-family: 'titr';
   src: url("fonts/titrbold.eot");
-  src: local('B Titr'), url("fonts/titrbold.eot?#iefix") format('embedded-opentype'), url("fonts/titrbold.woff") format('woff'), url("fonts/titrbold.ttf") format('truetype');
+  src: local('B Titr'), url("fonts/titrbold.woff") format('woff'), url("fonts/titrbold.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -332,7 +332,7 @@
 @font-face {
   font-family: 'titrtge';
   src: url("fonts/titrtgebold.eot");
-  src: local('B Titrtge'), url("fonts/titrtgebold.eot?#iefix") format('embedded-opentype'), url("fonts/titrtgebold.woff") format('woff'), url("fonts/titrtgebold.ttf") format('truetype');
+  src: local('B Titrtge'), url("fonts/titrtgebold.woff") format('woff'), url("fonts/titrtgebold.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -342,7 +342,7 @@
 @font-face {
   font-family: 'traffic';
   src: url("fonts/traffic.eot");
-  src: local('B Traffic'), url("fonts/traffic.eot?#iefix") format('embedded-opentype'), url("fonts/traffic.woff") format('woff'), url("fonts/traffic.ttf") format('truetype');
+  src: local('B Traffic'), url("fonts/traffic.woff") format('woff'), url("fonts/traffic.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -352,7 +352,7 @@
 @font-face {
   font-family: 'vahid';
   src: url("fonts/vahidbold.eot");
-  src: local('B Vahid'), url("fonts/vahidbold.eot?#iefix") format('embedded-opentype'), url("fonts/vahidbold.woff") format('woff'), url("fonts/vahidbold.ttf") format('truetype');
+  src: local('B Vahid'), url("fonts/vahidbold.woff") format('woff'), url("fonts/vahidbold.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -362,7 +362,7 @@
 @font-face {
   font-family: 'yagut';
   src: url("fonts/yagut.eot");
-  src: local('B Yagut'), url("fonts/yagut.eot?#iefix") format('embedded-opentype'), url("fonts/yagut.woff") format('woff'), url("fonts/yagut.ttf") format('truetype');
+  src: local('B Yagut'), url("fonts/yagut.woff") format('woff'), url("fonts/yagut.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -372,7 +372,7 @@
 @font-face {
   font-family: 'yas';
   src: url("fonts/yas.eot");
-  src: local('B Yas'), url("fonts/yas.eot?#iefix") format('embedded-opentype'), url("fonts/yas.woff") format('woff'), url("fonts/yas.ttf") format('truetype');
+  src: local('B Yas'), url("fonts/yas.woff") format('woff'), url("fonts/yas.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -382,7 +382,7 @@
 @font-face {
   font-family: 'yekan';
   src: url("fonts/yekan.eot");
-  src: local('B Yekan'), url("fonts/yekan.eot?#iefix") format('embedded-opentype'), url("fonts/yekan.woff") format('woff'), url("fonts/yekan.ttf") format('truetype');
+  src: local('B Yekan'), url("fonts/yekan.woff") format('woff'), url("fonts/yekan.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -392,7 +392,7 @@
 @font-face {
   font-family: 'zar';
   src: url("fonts/zar.eot");
-  src: local('B Zar'), url("fonts/zar.eot?#iefix") format('embedded-opentype'), url("fonts/zar.woff") format('woff'), url("fonts/zar.ttf") format('truetype');
+  src: local('B Zar'), url("fonts/zar.woff") format('woff'), url("fonts/zar.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -402,10 +402,70 @@
 @font-face {
   font-family: 'ziba';
   src: url("fonts/ziba.eot");
-  src: local('B Ziba'), url("fonts/ziba.eot?#iefix") format('embedded-opentype'), url("fonts/ziba.woff") format('woff'), url("fonts/ziba.ttf") format('truetype');
+  src: local('B Ziba'), url("fonts/ziba.woff") format('woff'), url("fonts/ziba.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 .ziba {
   font-family: 'B Ziba', ziba, Verdana, Geneva, sans-serif;
+}
+@font-face {
+  font-family: 'andalus';
+  src: url("fonts/andalus.eot");
+  src: local('Andalus'), url("fonts/andalus.woff") format('woff'), url("fonts/andalus.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.andalus {
+  font-family: 'Andalus', andalus, Verdana, Geneva, sans-serif;
+}
+@font-face {
+  font-family: 'arshia';
+  src: url("fonts/arshia.eot");
+  src: local('Arshia'), url("fonts/arshia.woff") format('woff'), url("fonts/arshia.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.arshia {
+  font-family: 'Arshia', arshia, Verdana, Geneva, sans-serif;
+}
+@font-face {
+  font-family: 'iraniansans';
+  src: url("fonts/iraniansans.eot");
+  src: local('Iranian Sans'), url("fonts/iraniansans.woff") format('woff'), url("fonts/iraniansans.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.iraniansans {
+  font-family: 'Iranian Sans', iraniansans, Verdana, Geneva, sans-serif;
+}
+@font-face {
+  font-family: 'kamran';
+  src: url("fonts/kamran.eot");
+  src: local('B Kamran'), url("fonts/kamran.woff") format('woff'), url("fonts/kamran.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.kamran {
+  font-family: 'B Kamran', kamran, Verdana, Geneva, sans-serif;
+}
+@font-face {
+  font-family: 'setareh';
+  src: url("fonts/setareh.eot");
+  src: local('B Setareh'), url("fonts/setareh.woff") format('woff'), url("fonts/setareh.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.setareh {
+  font-family: 'B Setareh', setareh, Verdana, Geneva, sans-serif;
+}
+@font-face {
+  font-family: 'tawfig';
+  src: url("fonts/tawfig.eot");
+  src: local('B Tawfig'), url("fonts/tawfig.woff") format('woff'), url("fonts/tawfig.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.tawfig {
+  font-family: 'B Tawfig', tawfig, Verdana, Geneva, sans-serif;
 }
