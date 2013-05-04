@@ -11,25 +11,25 @@
  */
  
 // Configuration - You can edit for costume build
-fonts_list = ('B Nazanin' nazanin) ('B Koodak' nini)
+fonts_list = (nazanin 'B Nazanin' nazaninbold) (nini 'B Koodak' koodak) // (font_name font_file_name_in_client our_font_file_name)
 fonts_folder = 'fonts/'
 fonts_class = true
 
 quote(str)
   unquote("'")+str+unquote("'")
 
-fontface(fontname)
+fontface(fontname,fontfilename)
   @font-face
     font-family quote(fontname)
-    src url(fonts_folder+fontname+'.eot')
-    src url(fonts_folder+fontname+'.eot?#iefix') format('embedded-opentype'),
-        url(fonts_folder+fontname+'.woff') format('woff'),
-        url(fonts_folder+fontname+'.ttf') format('truetype')
+    src url(fonts_folder+fontfilename+'.eot')
+    src url(fonts_folder+fontfilename+'.eot?#iefix') format('embedded-opentype'),
+        url(fonts_folder+fontfilename+'.woff') format('woff'),
+        url(fonts_folder+fontfilename+'.ttf') format('truetype')
     font-weight normal
     font-style normal
 
 for i in fonts_list
-  fontface i[1]
+  fontface i[0] i[2]
   if fonts_class
-    {'.'+i[1]}
-      font-family i[0], i[1], Verdana, Geneva, sans-serif
+    {'.'+i[0]}
+      font-family i[1], i[0], Verdana, Geneva, sans-serif
