@@ -11,25 +11,27 @@
  */
  
 // Configuration - You can edit for costume build
-fonts_list = Badr, Baran, Bardiya, Compset, Davat, Elham, EsfehanBold, Fantezy, Farnaz, Ferdosi, Hamid, Helal, Homa, JadidBold, Jalal, KoodakBold, Kourosh, Lotus, Mahsa, MehrBold, Mitra, Morvarid, Narm, NasimBold, Nazanin, Roya, SetarehBold, Shiraz, SinaBold, Tabassom, Tehran, TitrBold, TitrTGEBold, Traffic, VahidBold, Yagut, Yas, Yekan, Zar, Ziba
+// (fontName1 localFontName1 fontFileName1) (fontName2 localFontName2 fontFileName2) ...
+fonts_list = (badr 'B Badr' badr) (baran 'B Baran' baran) (bardiya 'B Bardiya' bardiya) (compset 'B Compset' compset) (davat 'B Davat' davat) (elham 'B Elham' elham) (esfehan 'B Esfehan' esfehanbold) (fantezy 'B Fantezy' fantezy) (farnaz 'B Farnaz' farnaz) (ferdosi 'B Ferdosi' ferdosi) (hamid 'B Hamid' hamid) (helal 'B Helal' helal) (homa 'B Homa' homa) (jadid 'B Jadid' jadidbold) (jalal 'B Jalal' jalal) (koodak 'B Koodak' koodakbold) (kourosh 'B Kourosh' kourosh) (lotus 'B Lotus' lotus) (mahsa 'B Mahsa' mahsa) (mehr 'B Mehr' mehrbold) (mitra 'B Mitra' mitra) (morvarid 'B Morvarid' morvarid) (narm 'B Narm' narm) (nasim 'B Nasim' nasimbold) (nazanin 'B Nazanin' nazanin) (roya 'B Roya' roya) (setareh 'B Setareh' setarehbold) (shiraz 'B Shiraz' shiraz) (sina 'B Sina' sinabold) (tabassom 'B Tabassom' tabassom) (tehran 'B Tehran' tehran) (titr 'B Titr' titrbold) (titrtge 'B Titrtge' titrtgebold) (traffic 'B Traffic' traffic) (vahid 'B Vahid' vahidbold) (yagut 'B Yagut' yagut) (yas 'B Yas' yas) (yekan 'B Yekan' yekan) (zar 'B Zar' zar) (ziba 'B Ziba' ziba)
 fonts_folder = 'fonts/'
 fonts_class = true
 
 quote(str)
   unquote("'")+str+unquote("'")
 
-fontface(fontname)
+fontface(font)
   @font-face
-    font-family quote(fontname)
-    src url(fonts_folder+'B'+fontname+'.eot')
-    src url(fonts_folder+'B'+fontname+'.eot?#iefix') format('embedded-opentype'),
-        url(fonts_folder+'B'+fontname+'.woff') format('woff'),
-        url(fonts_folder+'B'+fontname+'.ttf') format('truetype')
+    font-family quote(font[0])
+    src url(fonts_folder+font[2]+'.eot')
+    src local(font[1]),
+        url(fonts_folder+font[2]+'.eot?#iefix') format('embedded-opentype'),
+        url(fonts_folder+font[2]+'.woff') format('woff'),
+        url(fonts_folder+font[2]+'.ttf') format('truetype')
     font-weight normal
     font-style normal
 
 for i in fonts_list
   fontface i
   if fonts_class
-    {'.'+i}
-      font-family i, Verdana, Geneva, sans-serif
+    {'.'+i[0]}
+      font-family i[1], i[0], Verdana, Geneva, sans-serif
