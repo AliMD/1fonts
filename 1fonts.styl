@@ -11,7 +11,7 @@
  */
  
 // Configuration - You can edit for costume build
-fonts_list = Badr, Baran, Bardiya, Compset, Davat, Elham, EsfehanBold, Fantezy, Farnaz, Ferdosi, Hamid, Helal, Homa, JadidBold, Jalal, KoodakBold, Kourosh, Lotus, Mahsa, MehrBold, Mitra, Morvarid, Narm, NasimBold, Nazanin, Roya, SetarehBold, Shiraz, SinaBold, Tabassom, Tehran, TitrBold, TitrTGEBold, Traffic, VahidBold, Yagut, Yas, Yekan, Zar, Ziba
+fonts_list = ('B Nazanin' nazanin) ('B Koodak' nini)
 fonts_folder = 'fonts/'
 fonts_class = true
 
@@ -21,15 +21,15 @@ quote(str)
 fontface(fontname)
   @font-face
     font-family quote(fontname)
-    src url(fonts_folder+'B'+fontname+'.eot')
-    src url(fonts_folder+'B'+fontname+'.eot?#iefix') format('embedded-opentype'),
-        url(fonts_folder+'B'+fontname+'.woff') format('woff'),
-        url(fonts_folder+'B'+fontname+'.ttf') format('truetype')
+    src url(fonts_folder+fontname+'.eot')
+    src url(fonts_folder+fontname+'.eot?#iefix') format('embedded-opentype'),
+        url(fonts_folder+fontname+'.woff') format('woff'),
+        url(fonts_folder+fontname+'.ttf') format('truetype')
     font-weight normal
     font-style normal
 
 for i in fonts_list
-  fontface i
+  fontface i[1]
   if fonts_class
-    {'.'+i}
-      font-family i, Verdana, Geneva, sans-serif
+    {'.'+i[1]}
+      font-family i[0], i[1], Verdana, Geneva, sans-serif
