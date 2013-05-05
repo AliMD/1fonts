@@ -5,7 +5,8 @@ All fonts optimized and fixed issues for using in web.
 ## Features
 * Easy to use
 * IE6+ support
-* Font Class
+* Change font by class
+* Load font from local if exist
 * Include 3 font types (eot, ttf, woff)
 * Stylus version available
 
