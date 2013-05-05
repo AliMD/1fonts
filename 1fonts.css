@@ -422,22 +422,22 @@
 @font-face {
   font-family: 'arshia';
   src: url("fonts/arshia.eot");
-  src: local('Arshia'), url("fonts/arshia.woff") format('woff'), url("fonts/arshia.ttf") format('truetype');
+  src: local('B Arshia'), url("fonts/arshia.woff") format('woff'), url("fonts/arshia.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 .arshia {
-  font-family: 'Arshia', arshia, Verdana, Geneva, sans-serif;
+  font-family: 'B Arshia', arshia, Verdana, Geneva, sans-serif;
 }
 @font-face {
   font-family: 'iraniansans';
   src: url("fonts/iraniansans.eot");
-  src: local('Iranian Sans'), url("fonts/iraniansans.woff") format('woff'), url("fonts/iraniansans.ttf") format('truetype');
+  src: local('IranSansZ'), url("fonts/iraniansans.woff") format('woff'), url("fonts/iraniansans.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 .iraniansans {
-  font-family: 'Iranian Sans', iraniansans, Verdana, Geneva, sans-serif;
+  font-family: 'IranSansZ', iraniansans, Verdana, Geneva, sans-serif;
 }
 @font-face {
   font-family: 'kamran';
@@ -462,10 +462,10 @@
 @font-face {
   font-family: 'tawfig';
   src: url("fonts/tawfig.eot");
-  src: local('B Tawfig'), url("fonts/tawfig.woff") format('woff'), url("fonts/tawfig.ttf") format('truetype');
+  src: local('B Tawfig Outline'), url("fonts/tawfig.woff") format('woff'), url("fonts/tawfig.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 .tawfig {
-  font-family: 'B Tawfig', tawfig, Verdana, Geneva, sans-serif;
+  font-family: 'B Tawfig Outline', tawfig, Verdana, Geneva, sans-serif;
 }
