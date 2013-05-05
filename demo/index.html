@@ -4,14 +4,14 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="chrome=1" />
   <title>1Fonts by AliMD</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=1.0" />
   <link rel="stylesheet" href="pygment_trac.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link href='../1fonts.css?v=1.0' rel='stylesheet' type='text/css' />
   <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700" />
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
 <body>
   <div class="wrapper">
@@ -37,28 +37,30 @@
         <a name="features" class="anchor" href="#features"><span class="mini-icon mini-icon-link"></span></a>Features
       </h2>
       <ul>
+        <li><span id='fontlen'></span> Persian Web Fonts</li>
         <li>Easy to use</li>
-        <li>IE6+ support</li>
-        <li>Change font by class</li>
-        <li>Load font from local if exist</li>
+        <li>Cross Browser Compatibility (IE6+)</li>
+        <li>12.2 KB CSS file size</li>
         <li>Include 3 font types (eot, ttf, woff)</li>
-        <li>Stylus version available</li>
+        <li>Load font from local if exist</li>
+        <li>Change font by class</li>
+        <li>Dynamic Stylus version available</li>
+        <li>Compatible with CSS4, Stylus, SASS, LESS</li>
       </ul>
       <h2>
         <a name="demo" class="anchor" href="#demo"><span class="mini-icon mini-icon-link"></span></a>Demo
       </h2>
       <div class="demo">
-        <label for="fontSellect">Select Font</label>
-        <select id="fontSellect" name="fontSellect">
-          <option value="">Default</option>
-        </select>
+        <label for="fontSellect">Select Font from list</label>
+        <select id="fontSellect" name="fontSellect"></select>
+        and please wait to load.
         <section id="fontPreview">
-          <h3>تست متن فارسی با فونت دلخواه</h3>
+          <h3>تست فونت انتخابی</h3>
           <p>
             با توجه به حجم بالای فونت ها لطفا بعد از تغییرات شکیبا باشید.<br/>
             امیدوارم این سایت مفید و مورد استفاده قرار بگیره. <br/>
-            جهت استفاده نیازی به دانلود فونت و یا فایل CSS نیست و فقط کافیه تگ لینک رو به سایتتون اضافه کنید.<br/>
-            بشه که ایرانی بازی در نیارین :troll: !
+            جهت استفاده نیازی به دانلود فونت و یا فایل CSS نیست<br/>
+            فقط کافیه تگ لینک رو به سایتتون اضافه کنید.
           </p>
         </section>
       </div>
@@ -118,7 +120,7 @@
     </footer>
   </div>
   <script src="scale.fix.js"></script>
-  <script src="http://alimd.github.io/libs/zepto/1.0/zepto.js"></script>
+  <script src="http://alimd.github.io/libs/jquery/1.9.1/jquery.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
