@@ -181,10 +181,14 @@ footer {
   bottom:50px;
 }
 
-#fontPreview{
+#fontpreview{
   direction: rtl;
   padding-top: 20px;
   text-align: right;
+}
+
+#fontpreview p{
+  line-height: 1.8;
 }
 
 #fontlen{
