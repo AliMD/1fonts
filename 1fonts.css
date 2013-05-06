@@ -73,8 +73,8 @@
 .tehran{font-family:'B Tehran',tehran,Verdana,Geneva,sans-serif}
 @font-face{font-family:'titr';src:url("fonts/titrbold.eot");src:local('B Titr'),url("fonts/titrbold.woff") format('woff'),url("fonts/titrbold.ttf") format('truetype');font-weight:normal;font-style:normal}
 .titr{font-family:'B Titr',titr,Verdana,Geneva,sans-serif}
-@font-face{font-family:'titrtge';src:url("fonts/titrtgebold.eot");src:local('B Titrtge'),url("fonts/titrtgebold.woff") format('woff'),url("fonts/titrtgebold.ttf") format('truetype');font-weight:normal;font-style:normal}
-.titrtge{font-family:'B Titrtge',titrtge,Verdana,Geneva,sans-serif}
+@font-face{font-family:'titrtge';src:url("fonts/titrtgebold.eot");src:local('B Titr TG E'),url("fonts/titrtgebold.woff") format('woff'),url("fonts/titrtgebold.ttf") format('truetype');font-weight:normal;font-style:normal}
+.titrtge{font-family:'B Titr TG E',titrtge,Verdana,Geneva,sans-serif}
 @font-face{font-family:'traffic';src:url("fonts/traffic.eot");src:local('B Traffic'),url("fonts/traffic.woff") format('woff'),url("fonts/traffic.ttf") format('truetype');font-weight:normal;font-style:normal}
 .traffic{font-family:'B Traffic',traffic,Verdana,Geneva,sans-serif}
 @font-face{font-family:'vahid';src:url("fonts/vahidbold.eot");src:local('B Vahid'),url("fonts/vahidbold.woff") format('woff'),url("fonts/vahidbold.ttf") format('truetype');font-weight:normal;font-style:normal}
