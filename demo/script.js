@@ -5,7 +5,6 @@ var
   $nextFont = $('#nextfont'),
   currentFont = -1,
   changeFont = function (indx) {
-    console.log([currentFont,indx]);
     if(currentFont === indx) return false;
     $fontPreview
       .removeClass()

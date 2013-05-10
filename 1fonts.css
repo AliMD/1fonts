@@ -1,5 +1,5 @@
 /*
- * 1Fonts v1.0 - Persian Web Fonts.
+ * 1Fonts v1.2 - Persian Web Fonts.
  *
  * 1Fonts is a Persian fonts gallery for web developers.
  * All fonts optimized and fixed issues for using in web.
@@ -9,473 +9,99 @@
  * http://alimd.github.io/1fonts
  *
  */
-@font-face {
-  font-family: 'badr';
-  src: url("fonts/badr.eot");
-  src: local('B Badr'), url("fonts/badr.woff") format('woff'), url("fonts/badr.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.badr {
-  font-family: 'B Badr', badr, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'baran';
-  src: url("fonts/baran.eot");
-  src: local('B Baran'), url("fonts/baran.woff") format('woff'), url("fonts/baran.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.baran {
-  font-family: 'B Baran', baran, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'bardiya';
-  src: url("fonts/bardiya.eot");
-  src: local('B Bardiya'), url("fonts/bardiya.woff") format('woff'), url("fonts/bardiya.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.bardiya {
-  font-family: 'B Bardiya', bardiya, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'compset';
-  src: url("fonts/compset.eot");
-  src: local('B Compset'), url("fonts/compset.woff") format('woff'), url("fonts/compset.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.compset {
-  font-family: 'B Compset', compset, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'davat';
-  src: url("fonts/davat.eot");
-  src: local('B Davat'), url("fonts/davat.woff") format('woff'), url("fonts/davat.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.davat {
-  font-family: 'B Davat', davat, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'elham';
-  src: url("fonts/elham.eot");
-  src: local('B Elham'), url("fonts/elham.woff") format('woff'), url("fonts/elham.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.elham {
-  font-family: 'B Elham', elham, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'esfehan';
-  src: url("fonts/esfehanbold.eot");
-  src: local('B Esfehan'), url("fonts/esfehanbold.woff") format('woff'), url("fonts/esfehanbold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.esfehan {
-  font-family: 'B Esfehan', esfehan, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'fantezy';
-  src: url("fonts/fantezy.eot");
-  src: local('B Fantezy'), url("fonts/fantezy.woff") format('woff'), url("fonts/fantezy.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.fantezy {
-  font-family: 'B Fantezy', fantezy, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'farnaz';
-  src: url("fonts/farnaz.eot");
-  src: local('B Farnaz'), url("fonts/farnaz.woff") format('woff'), url("fonts/farnaz.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.farnaz {
-  font-family: 'B Farnaz', farnaz, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'ferdosi';
-  src: url("fonts/ferdosi.eot");
-  src: local('B Ferdosi'), url("fonts/ferdosi.woff") format('woff'), url("fonts/ferdosi.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.ferdosi {
-  font-family: 'B Ferdosi', ferdosi, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'hamid';
-  src: url("fonts/hamid.eot");
-  src: local('B Hamid'), url("fonts/hamid.woff") format('woff'), url("fonts/hamid.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.hamid {
-  font-family: 'B Hamid', hamid, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'helal';
-  src: url("fonts/helal.eot");
-  src: local('B Helal'), url("fonts/helal.woff") format('woff'), url("fonts/helal.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.helal {
-  font-family: 'B Helal', helal, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'homa';
-  src: url("fonts/homa.eot");
-  src: local('B Homa'), url("fonts/homa.woff") format('woff'), url("fonts/homa.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.homa {
-  font-family: 'B Homa', homa, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'jadid';
-  src: url("fonts/jadidbold.eot");
-  src: local('B Jadid'), url("fonts/jadidbold.woff") format('woff'), url("fonts/jadidbold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.jadid {
-  font-family: 'B Jadid', jadid, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'jalal';
-  src: url("fonts/jalal.eot");
-  src: local('B Jalal'), url("fonts/jalal.woff") format('woff'), url("fonts/jalal.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.jalal {
-  font-family: 'B Jalal', jalal, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'koodak';
-  src: url("fonts/koodakbold.eot");
-  src: local('B Koodak'), url("fonts/koodakbold.woff") format('woff'), url("fonts/koodakbold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.koodak {
-  font-family: 'B Koodak', koodak, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'kourosh';
-  src: url("fonts/kourosh.eot");
-  src: local('B Kourosh'), url("fonts/kourosh.woff") format('woff'), url("fonts/kourosh.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.kourosh {
-  font-family: 'B Kourosh', kourosh, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'lotus';
-  src: url("fonts/lotus.eot");
-  src: local('B Lotus'), url("fonts/lotus.woff") format('woff'), url("fonts/lotus.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.lotus {
-  font-family: 'B Lotus', lotus, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'mahsa';
-  src: url("fonts/mahsa.eot");
-  src: local('B Mahsa'), url("fonts/mahsa.woff") format('woff'), url("fonts/mahsa.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.mahsa {
-  font-family: 'B Mahsa', mahsa, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'mehr';
-  src: url("fonts/mehrbold.eot");
-  src: local('B Mehr'), url("fonts/mehrbold.woff") format('woff'), url("fonts/mehrbold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.mehr {
-  font-family: 'B Mehr', mehr, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'mitra';
-  src: url("fonts/mitra.eot");
-  src: local('B Mitra'), url("fonts/mitra.woff") format('woff'), url("fonts/mitra.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.mitra {
-  font-family: 'B Mitra', mitra, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'morvarid';
-  src: url("fonts/morvarid.eot");
-  src: local('B Morvarid'), url("fonts/morvarid.woff") format('woff'), url("fonts/morvarid.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.morvarid {
-  font-family: 'B Morvarid', morvarid, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'narm';
-  src: url("fonts/narm.eot");
-  src: local('B Narm'), url("fonts/narm.woff") format('woff'), url("fonts/narm.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.narm {
-  font-family: 'B Narm', narm, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'nasim';
-  src: url("fonts/nasimbold.eot");
-  src: local('B Nasim'), url("fonts/nasimbold.woff") format('woff'), url("fonts/nasimbold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.nasim {
-  font-family: 'B Nasim', nasim, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'nazanin';
-  src: url("fonts/nazanin.eot");
-  src: local('B Nazanin'), url("fonts/nazanin.woff") format('woff'), url("fonts/nazanin.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.nazanin {
-  font-family: 'B Nazanin', nazanin, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'roya';
-  src: url("fonts/roya.eot");
-  src: local('B Roya'), url("fonts/roya.woff") format('woff'), url("fonts/roya.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.roya {
-  font-family: 'B Roya', roya, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'setareh';
-  src: url("fonts/setarehbold.eot");
-  src: local('B Setareh'), url("fonts/setarehbold.woff") format('woff'), url("fonts/setarehbold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.setareh {
-  font-family: 'B Setareh', setareh, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'shiraz';
-  src: url("fonts/shiraz.eot");
-  src: local('B Shiraz'), url("fonts/shiraz.woff") format('woff'), url("fonts/shiraz.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.shiraz {
-  font-family: 'B Shiraz', shiraz, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'sina';
-  src: url("fonts/sinabold.eot");
-  src: local('B Sina'), url("fonts/sinabold.woff") format('woff'), url("fonts/sinabold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.sina {
-  font-family: 'B Sina', sina, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'tabassom';
-  src: url("fonts/tabassom.eot");
-  src: local('B Tabassom'), url("fonts/tabassom.woff") format('woff'), url("fonts/tabassom.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.tabassom {
-  font-family: 'B Tabassom', tabassom, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'tehran';
-  src: url("fonts/tehran.eot");
-  src: local('B Tehran'), url("fonts/tehran.woff") format('woff'), url("fonts/tehran.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.tehran {
-  font-family: 'B Tehran', tehran, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'titr';
-  src: url("fonts/titrbold.eot");
-  src: local('B Titr'), url("fonts/titrbold.woff") format('woff'), url("fonts/titrbold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.titr {
-  font-family: 'B Titr', titr, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'titrtge';
-  src: url("fonts/titrtgebold.eot");
-  src: local('B Titrtge'), url("fonts/titrtgebold.woff") format('woff'), url("fonts/titrtgebold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.titrtge {
-  font-family: 'B Titrtge', titrtge, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'traffic';
-  src: url("fonts/traffic.eot");
-  src: local('B Traffic'), url("fonts/traffic.woff") format('woff'), url("fonts/traffic.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.traffic {
-  font-family: 'B Traffic', traffic, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'vahid';
-  src: url("fonts/vahidbold.eot");
-  src: local('B Vahid'), url("fonts/vahidbold.woff") format('woff'), url("fonts/vahidbold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.vahid {
-  font-family: 'B Vahid', vahid, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'yagut';
-  src: url("fonts/yagut.eot");
-  src: local('B Yagut'), url("fonts/yagut.woff") format('woff'), url("fonts/yagut.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.yagut {
-  font-family: 'B Yagut', yagut, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'yas';
-  src: url("fonts/yas.eot");
-  src: local('B Yas'), url("fonts/yas.woff") format('woff'), url("fonts/yas.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.yas {
-  font-family: 'B Yas', yas, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'yekan';
-  src: url("fonts/yekan.eot");
-  src: local('B Yekan'), url("fonts/yekan.woff") format('woff'), url("fonts/yekan.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.yekan {
-  font-family: 'B Yekan', yekan, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'zar';
-  src: url("fonts/zar.eot");
-  src: local('B Zar'), url("fonts/zar.woff") format('woff'), url("fonts/zar.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.zar {
-  font-family: 'B Zar', zar, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'ziba';
-  src: url("fonts/ziba.eot");
-  src: local('B Ziba'), url("fonts/ziba.woff") format('woff'), url("fonts/ziba.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.ziba {
-  font-family: 'B Ziba', ziba, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'andalus';
-  src: url("fonts/andalus.eot");
-  src: local('Andalus'), url("fonts/andalus.woff") format('woff'), url("fonts/andalus.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.andalus {
-  font-family: 'Andalus', andalus, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'arshia';
-  src: url("fonts/arshia.eot");
-  src: local('B Arshia'), url("fonts/arshia.woff") format('woff'), url("fonts/arshia.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.arshia {
-  font-family: 'B Arshia', arshia, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'iraniansans';
-  src: url("fonts/iraniansans.eot");
-  src: local('IranSansZ'), url("fonts/iraniansans.woff") format('woff'), url("fonts/iraniansans.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.iraniansans {
-  font-family: 'IranSansZ', iraniansans, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'kamran';
-  src: url("fonts/kamran.eot");
-  src: local('B Kamran'), url("fonts/kamran.woff") format('woff'), url("fonts/kamran.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.kamran {
-  font-family: 'B Kamran', kamran, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'setareh';
-  src: url("fonts/setareh.eot");
-  src: local('B Setareh'), url("fonts/setareh.woff") format('woff'), url("fonts/setareh.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.setareh {
-  font-family: 'B Setareh', setareh, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'tawfig';
-  src: url("fonts/tawfig.eot");
-  src: local('B Tawfig Outline'), url("fonts/tawfig.woff") format('woff'), url("fonts/tawfig.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.tawfig {
-  font-family: 'B Tawfig Outline', tawfig, Verdana, Geneva, sans-serif;
-}
-@font-face {
-  font-family: 'droidnaskh';
-  src: url("fonts/droidnaskhbold.eot");
-  src: local('Droid Arabic Naskh'), url("fonts/droidnaskhbold.woff") format('woff'), url("fonts/droidnaskhbold.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-.droidnaskh {
-  font-family: 'Droid Arabic Naskh', droidnaskh, Verdana, Geneva, sans-serif;
-}
+@font-face{font-family:'badr';font-style:normal;font-weight:400;src:url("fonts/badr.eot");src:local('B Badr'),url("fonts/badr.eot") format('embedded-opentype'),url("fonts/badr.woff") format('woff'),url("fonts/badr.ttf") format('truetype')}
+.badr{font-family:'B Badr',badr,Verdana,Geneva,sans-serif}
+@font-face{font-family:'baran';font-style:normal;font-weight:400;src:url("fonts/baran.eot");src:local('B Baran'),url("fonts/baran.eot") format('embedded-opentype'),url("fonts/baran.woff") format('woff'),url("fonts/baran.ttf") format('truetype')}
+.baran{font-family:'B Baran',baran,Verdana,Geneva,sans-serif}
+@font-face{font-family:'bardiya';font-style:normal;font-weight:400;src:url("fonts/bardiya.eot");src:local('B Bardiya'),url("fonts/bardiya.eot") format('embedded-opentype'),url("fonts/bardiya.woff") format('woff'),url("fonts/bardiya.ttf") format('truetype')}
+.bardiya{font-family:'B Bardiya',bardiya,Verdana,Geneva,sans-serif}
+@font-face{font-family:'compset';font-style:normal;font-weight:400;src:url("fonts/compset.eot");src:local('B Compset'),url("fonts/compset.eot") format('embedded-opentype'),url("fonts/compset.woff") format('woff'),url("fonts/compset.ttf") format('truetype')}
+.compset{font-family:'B Compset',compset,Verdana,Geneva,sans-serif}
+@font-face{font-family:'davat';font-style:normal;font-weight:400;src:url("fonts/davat.eot");src:local('B Davat'),url("fonts/davat.eot") format('embedded-opentype'),url("fonts/davat.woff") format('woff'),url("fonts/davat.ttf") format('truetype')}
+.davat{font-family:'B Davat',davat,Verdana,Geneva,sans-serif}
+@font-face{font-family:'elham';font-style:normal;font-weight:400;src:url("fonts/elham.eot");src:local('B Elham'),url("fonts/elham.eot") format('embedded-opentype'),url("fonts/elham.woff") format('woff'),url("fonts/elham.ttf") format('truetype')}
+.elham{font-family:'B Elham',elham,Verdana,Geneva,sans-serif}
+@font-face{font-family:'esfehan';font-style:normal;font-weight:700;src:url("fonts/esfehanbold.eot");src:local('B Esfehan'),url("fonts/esfehanbold.eot") format('embedded-opentype'),url("fonts/esfehanbold.woff") format('woff'),url("fonts/esfehanbold.ttf") format('truetype')}
+.esfehan{font-family:'B Esfehan',esfehan,Verdana,Geneva,sans-serif}
+@font-face{font-family:'fantezy';font-style:normal;font-weight:400;src:url("fonts/fantezy.eot");src:local('B Fantezy'),url("fonts/fantezy.eot") format('embedded-opentype'),url("fonts/fantezy.woff") format('woff'),url("fonts/fantezy.ttf") format('truetype')}
+.fantezy{font-family:'B Fantezy',fantezy,Verdana,Geneva,sans-serif}
+@font-face{font-family:'farnaz';font-style:normal;font-weight:400;src:url("fonts/farnaz.eot");src:local('B Farnaz'),url("fonts/farnaz.eot") format('embedded-opentype'),url("fonts/farnaz.woff") format('woff'),url("fonts/farnaz.ttf") format('truetype')}
+.farnaz{font-family:'B Farnaz',farnaz,Verdana,Geneva,sans-serif}
+@font-face{font-family:'ferdosi';font-style:normal;font-weight:400;src:url("fonts/ferdosi.eot");src:local('B Ferdosi'),url("fonts/ferdosi.eot") format('embedded-opentype'),url("fonts/ferdosi.woff") format('woff'),url("fonts/ferdosi.ttf") format('truetype')}
+.ferdosi{font-family:'B Ferdosi',ferdosi,Verdana,Geneva,sans-serif}
+@font-face{font-family:'hamid';font-style:normal;font-weight:400;src:url("fonts/hamid.eot");src:local('B Hamid'),url("fonts/hamid.eot") format('embedded-opentype'),url("fonts/hamid.woff") format('woff'),url("fonts/hamid.ttf") format('truetype')}
+.hamid{font-family:'B Hamid',hamid,Verdana,Geneva,sans-serif}
+@font-face{font-family:'helal';font-style:normal;font-weight:400;src:url("fonts/helal.eot");src:local('B Helal'),url("fonts/helal.eot") format('embedded-opentype'),url("fonts/helal.woff") format('woff'),url("fonts/helal.ttf") format('truetype')}
+.helal{font-family:'B Helal',helal,Verdana,Geneva,sans-serif}
+@font-face{font-family:'homa';font-style:normal;font-weight:400;src:url("fonts/homa.eot");src:local('B Homa'),url("fonts/homa.eot") format('embedded-opentype'),url("fonts/homa.woff") format('woff'),url("fonts/homa.ttf") format('truetype')}
+.homa{font-family:'B Homa',homa,Verdana,Geneva,sans-serif}
+@font-face{font-family:'jadid';font-style:normal;font-weight:700;src:url("fonts/jadidbold.eot");src:local('B Jadid'),url("fonts/jadidbold.eot") format('embedded-opentype'),url("fonts/jadidbold.woff") format('woff'),url("fonts/jadidbold.ttf") format('truetype')}
+.jadid{font-family:'B Jadid',jadid,Verdana,Geneva,sans-serif}
+@font-face{font-family:'jalal';font-style:normal;font-weight:400;src:url("fonts/jalal.eot");src:local('B Jalal'),url("fonts/jalal.eot") format('embedded-opentype'),url("fonts/jalal.woff") format('woff'),url("fonts/jalal.ttf") format('truetype')}
+.jalal{font-family:'B Jalal',jalal,Verdana,Geneva,sans-serif}
+@font-face{font-family:'koodak';font-style:normal;font-weight:700;src:url("fonts/koodakbold.eot");src:local('B Koodak'),url("fonts/koodakbold.eot") format('embedded-opentype'),url("fonts/koodakbold.woff") format('woff'),url("fonts/koodakbold.ttf") format('truetype')}
+.koodak{font-family:'B Koodak',koodak,Verdana,Geneva,sans-serif}
+@font-face{font-family:'kourosh';font-style:normal;font-weight:700;src:url("fonts/kourosh.eot");src:local('B Kourosh'),url("fonts/kourosh.eot") format('embedded-opentype'),url("fonts/kourosh.woff") format('woff'),url("fonts/kourosh.ttf") format('truetype')}
+.kourosh{font-family:'B Kourosh',kourosh,Verdana,Geneva,sans-serif}
+@font-face{font-family:'lotus';font-style:normal;font-weight:400;src:url("fonts/lotus.eot");src:local('B Lotus'),url("fonts/lotus.eot") format('embedded-opentype'),url("fonts/lotus.woff") format('woff'),url("fonts/lotus.ttf") format('truetype')}
+.lotus{font-family:'B Lotus',lotus,Verdana,Geneva,sans-serif}
+@font-face{font-family:'mahsa';font-style:normal;font-weight:400;src:url("fonts/mahsa.eot");src:local('B Mahsa'),url("fonts/mahsa.eot") format('embedded-opentype'),url("fonts/mahsa.woff") format('woff'),url("fonts/mahsa.ttf") format('truetype')}
+.mahsa{font-family:'B Mahsa',mahsa,Verdana,Geneva,sans-serif}
+@font-face{font-family:'mehr';font-style:normal;font-weight:700;src:url("fonts/mehrbold.eot");src:local('B Mehr'),url("fonts/mehrbold.eot") format('embedded-opentype'),url("fonts/mehrbold.woff") format('woff'),url("fonts/mehrbold.ttf") format('truetype')}
+.mehr{font-family:'B Mehr',mehr,Verdana,Geneva,sans-serif}
+@font-face{font-family:'mitra';font-style:normal;font-weight:400;src:url("fonts/mitra.eot");src:local('B Mitra'),url("fonts/mitra.eot") format('embedded-opentype'),url("fonts/mitra.woff") format('woff'),url("fonts/mitra.ttf") format('truetype')}
+.mitra{font-family:'B Mitra',mitra,Verdana,Geneva,sans-serif}
+@font-face{font-family:'morvarid';font-style:normal;font-weight:400;src:url("fonts/morvarid.eot");src:local('B Morvarid'),url("fonts/morvarid.eot") format('embedded-opentype'),url("fonts/morvarid.woff") format('woff'),url("fonts/morvarid.ttf") format('truetype')}
+.morvarid{font-family:'B Morvarid',morvarid,Verdana,Geneva,sans-serif}
+@font-face{font-family:'narm';font-style:normal;font-weight:400;src:url("fonts/narm.eot");src:local('B Narm'),url("fonts/narm.eot") format('embedded-opentype'),url("fonts/narm.woff") format('woff'),url("fonts/narm.ttf") format('truetype')}
+.narm{font-family:'B Narm',narm,Verdana,Geneva,sans-serif}
+@font-face{font-family:'nasim';font-style:normal;font-weight:700;src:url("fonts/nasimbold.eot");src:local('B Nasim'),url("fonts/nasimbold.eot") format('embedded-opentype'),url("fonts/nasimbold.woff") format('woff'),url("fonts/nasimbold.ttf") format('truetype')}
+.nasim{font-family:'B Nasim',nasim,Verdana,Geneva,sans-serif}
+@font-face{font-family:'nazanin';font-style:normal;font-weight:400;src:url("fonts/nazanin.eot");src:local('B Nazanin'),url("fonts/nazanin.eot") format('embedded-opentype'),url("fonts/nazanin.woff") format('woff'),url("fonts/nazanin.ttf") format('truetype')}
+.nazanin{font-family:'B Nazanin',nazanin,Verdana,Geneva,sans-serif}
+@font-face{font-family:'roya';font-style:normal;font-weight:400;src:url("fonts/roya.eot");src:local('B Roya'),url("fonts/roya.eot") format('embedded-opentype'),url("fonts/roya.woff") format('woff'),url("fonts/roya.ttf") format('truetype')}
+.roya{font-family:'B Roya',roya,Verdana,Geneva,sans-serif}
+@font-face{font-family:'setareh';font-style:normal;font-weight:700;src:url("fonts/setarehbold.eot");src:local('B Setareh'),url("fonts/setarehbold.eot") format('embedded-opentype'),url("fonts/setarehbold.woff") format('woff'),url("fonts/setarehbold.ttf") format('truetype')}
+.setareh{font-family:'B Setareh',setareh,Verdana,Geneva,sans-serif}
+@font-face{font-family:'shiraz';font-style:normal;font-weight:400;src:url("fonts/shiraz.eot");src:local('B Shiraz'),url("fonts/shiraz.eot") format('embedded-opentype'),url("fonts/shiraz.woff") format('woff'),url("fonts/shiraz.ttf") format('truetype')}
+.shiraz{font-family:'B Shiraz',shiraz,Verdana,Geneva,sans-serif}
+@font-face{font-family:'sina';font-style:normal;font-weight:700;src:url("fonts/sinabold.eot");src:local('B Sina'),url("fonts/sinabold.eot") format('embedded-opentype'),url("fonts/sinabold.woff") format('woff'),url("fonts/sinabold.ttf") format('truetype')}
+.sina{font-family:'B Sina',sina,Verdana,Geneva,sans-serif}
+@font-face{font-family:'tabassom';font-style:normal;font-weight:400;src:url("fonts/tabassom.eot");src:local('B Tabassom'),url("fonts/tabassom.eot") format('embedded-opentype'),url("fonts/tabassom.woff") format('woff'),url("fonts/tabassom.ttf") format('truetype')}
+.tabassom{font-family:'B Tabassom',tabassom,Verdana,Geneva,sans-serif}
+@font-face{font-family:'tehran';font-style:normal;font-weight:400;src:url("fonts/tehran.eot");src:local('B Tehran'),url("fonts/tehran.eot") format('embedded-opentype'),url("fonts/tehran.woff") format('woff'),url("fonts/tehran.ttf") format('truetype')}
+.tehran{font-family:'B Tehran',tehran,Verdana,Geneva,sans-serif}
+@font-face{font-family:'titr';font-style:normal;font-weight:700;src:url("fonts/titrbold.eot");src:local('B Titr'),url("fonts/titrbold.eot") format('embedded-opentype'),url("fonts/titrbold.woff") format('woff'),url("fonts/titrbold.ttf") format('truetype')}
+.titr{font-family:'B Titr',titr,Verdana,Geneva,sans-serif}
+@font-face{font-family:'titrtge';font-style:normal;font-weight:700;src:url("fonts/titrtgebold.eot");src:local('B Titrtge'),url("fonts/titrtgebold.eot") format('embedded-opentype'),url("fonts/titrtgebold.woff") format('woff'),url("fonts/titrtgebold.ttf") format('truetype')}
+.titrtge{font-family:'B Titrtge',titrtge,Verdana,Geneva,sans-serif}
+@font-face{font-family:'traffic';font-style:normal;font-weight:400;src:url("fonts/traffic.eot");src:local('B Traffic'),url("fonts/traffic.eot") format('embedded-opentype'),url("fonts/traffic.woff") format('woff'),url("fonts/traffic.ttf") format('truetype')}
+.traffic{font-family:'B Traffic',traffic,Verdana,Geneva,sans-serif}
+@font-face{font-family:'vahid';font-style:normal;font-weight:700;src:url("fonts/vahidbold.eot");src:local('B Vahid'),url("fonts/vahidbold.eot") format('embedded-opentype'),url("fonts/vahidbold.woff") format('woff'),url("fonts/vahidbold.ttf") format('truetype')}
+.vahid{font-family:'B Vahid',vahid,Verdana,Geneva,sans-serif}
+@font-face{font-family:'yagut';font-style:normal;font-weight:400;src:url("fonts/yagut.eot");src:local('B Yagut'),url("fonts/yagut.eot") format('embedded-opentype'),url("fonts/yagut.woff") format('woff'),url("fonts/yagut.ttf") format('truetype')}
+.yagut{font-family:'B Yagut',yagut,Verdana,Geneva,sans-serif}
+@font-face{font-family:'yas';font-style:normal;font-weight:400;src:url("fonts/yas.eot");src:local('B Yas'),url("fonts/yas.eot") format('embedded-opentype'),url("fonts/yas.woff") format('woff'),url("fonts/yas.ttf") format('truetype')}
+.yas{font-family:'B Yas',yas,Verdana,Geneva,sans-serif}
+@font-face{font-family:'yekan';font-style:normal;font-weight:400;src:url("fonts/yekan.eot");src:local('B Yekan'),url("fonts/yekan.eot") format('embedded-opentype'),url("fonts/yekan.woff") format('woff'),url("fonts/yekan.ttf") format('truetype')}
+.yekan{font-family:'B Yekan',yekan,Verdana,Geneva,sans-serif}
+@font-face{font-family:'zar';font-style:normal;font-weight:400;src:url("fonts/zar.eot");src:local('B Zar'),url("fonts/zar.eot") format('embedded-opentype'),url("fonts/zar.woff") format('woff'),url("fonts/zar.ttf") format('truetype')}
+.zar{font-family:'B Zar',zar,Verdana,Geneva,sans-serif}
+@font-face{font-family:'ziba';font-style:normal;font-weight:400;src:url("fonts/ziba.eot");src:local('B Ziba'),url("fonts/ziba.eot") format('embedded-opentype'),url("fonts/ziba.woff") format('woff'),url("fonts/ziba.ttf") format('truetype')}
+.ziba{font-family:'B Ziba',ziba,Verdana,Geneva,sans-serif}
+@font-face{font-family:'andalus';font-style:normal;font-weight:400;src:url("fonts/andalus.eot");src:local('Andalus'),url("fonts/andalus.eot") format('embedded-opentype'),url("fonts/andalus.woff") format('woff'),url("fonts/andalus.ttf") format('truetype')}
+.andalus{font-family:'Andalus',andalus,Verdana,Geneva,sans-serif}
+@font-face{font-family:'arshia';font-style:normal;font-weight:400;src:url("fonts/arshia.eot");src:local('B Arshia'),url("fonts/arshia.eot") format('embedded-opentype'),url("fonts/arshia.woff") format('woff'),url("fonts/arshia.ttf") format('truetype')}
+.arshia{font-family:'B Arshia',arshia,Verdana,Geneva,sans-serif}
+@font-face{font-family:'iraniansans';font-style:normal;font-weight:400;src:url("fonts/iraniansans.eot");src:local('IranSansZ'),url("fonts/iraniansans.eot") format('embedded-opentype'),url("fonts/iraniansans.woff") format('woff'),url("fonts/iraniansans.ttf") format('truetype')}
+.iraniansans{font-family:'IranSansZ',iraniansans,Verdana,Geneva,sans-serif}
+@font-face{font-family:'kamran';font-style:normal;font-weight:400;src:url("fonts/kamran.eot");src:local('B Kamran'),url("fonts/kamran.eot") format('embedded-opentype'),url("fonts/kamran.woff") format('woff'),url("fonts/kamran.ttf") format('truetype')}
+.kamran{font-family:'B Kamran',kamran,Verdana,Geneva,sans-serif}
+@font-face{font-family:'setareh';font-style:normal;font-weight:400;src:url("fonts/setareh.eot");src:local('B Setareh'),url("fonts/setareh.eot") format('embedded-opentype'),url("fonts/setareh.woff") format('woff'),url("fonts/setareh.ttf") format('truetype')}
+.setareh{font-family:'B Setareh',setareh,Verdana,Geneva,sans-serif}
+@font-face{font-family:'tawfig';font-style:normal;font-weight:400;src:url("fonts/tawfig.eot");src:local('B Tawfig Outline'),url("fonts/tawfig.eot") format('embedded-opentype'),url("fonts/tawfig.woff") format('woff'),url("fonts/tawfig.ttf") format('truetype')}
+.tawfig{font-family:'B Tawfig Outline',tawfig,Verdana,Geneva,sans-serif}
+@font-face{font-family:'droidnaskh';font-style:normal;font-weight:800;src:url("fonts/droidnaskhbold.eot");src:local('Droid Arabic Naskh'),url("fonts/droidnaskhbold.eot") format('embedded-opentype'),url("fonts/droidnaskhbold.woff") format('woff'),url("fonts/droidnaskhbold.ttf") format('truetype')}
+.droidnaskh{font-family:'Droid Arabic Naskh',droidnaskh,Verdana,Geneva,sans-serif}
+@font-face{font-family:'droidnaskh';font-style:normal;font-weight:400;src:url("fonts/droidnaskh.eot");src:local('Droid Arabic Naskh'),url("fonts/droidnaskh.eot") format('embedded-opentype'),url("fonts/droidnaskh.woff") format('woff'),url("fonts/droidnaskh.ttf") format('truetype')}
+.droidnaskh{font-family:'Droid Arabic Naskh',droidnaskh,Verdana,Geneva,sans-serif}
