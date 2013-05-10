@@ -1,14 +1,17 @@
 # 1Fonts - Persian Web Fonts.
 1Fonts is a Persian fonts gallery for web developers.  
-All fonts optimized and fixed issues for using in web.
+All fonts optimized and fixed issues for using in the web.
 
 ## Features
-* Easy to use
-* IE6+ support
-* Change font by class
-* Load font from local if exist
-* Include 3 font types (eot, ttf, woff)
-* Stylus version available
+47 Persian Web Fonts
+Easy to use
+Cross Browser Compatibility (IE6+)
+12.2 KB CSS file size
+Include 3 font types (eot, ttf, woff)
+Use local fonts (if available)
+Change font by class name
+Dynamic Stylus version available
+Compatible with CSS4, Stylus, SASS, LESS
 
 ## Demo
 [alimd.github.io/1fonts](http://alimd.github.io/1fonts)
