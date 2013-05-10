@@ -11,8 +11,8 @@
  */
 
 // Configuration - You can edit for costume build
-// (fontName1 localFontName1 fontFileName1) (fontName2 localFontName2 fontFileName2) ...
-fonts_list = (badr 'B Badr' badr) (baran 'B Baran' baran) (bardiya 'B Bardiya' bardiya) (compset 'B Compset' compset) (davat 'B Davat' davat) (elham 'B Elham' elham) (esfehan 'B Esfehan' esfehanbold) (fantezy 'B Fantezy' fantezy) (farnaz 'B Farnaz' farnaz) (ferdosi 'B Ferdosi' ferdosi) (hamid 'B Hamid' hamid) (helal 'B Helal' helal) (homa 'B Homa' homa) (jadid 'B Jadid' jadidbold) (jalal 'B Jalal' jalal) (koodak 'B Koodak' koodakbold) (kourosh 'B Kourosh' kourosh) (lotus 'B Lotus' lotus) (mahsa 'B Mahsa' mahsa) (mehr 'B Mehr' mehrbold) (mitra 'B Mitra' mitra) (morvarid 'B Morvarid' morvarid) (narm 'B Narm' narm) (nasim 'B Nasim' nasimbold) (nazanin 'B Nazanin' nazanin) (roya 'B Roya' roya) (setareh 'B Setareh' setarehbold) (shiraz 'B Shiraz' shiraz) (sina 'B Sina' sinabold) (tabassom 'B Tabassom' tabassom) (tehran 'B Tehran' tehran) (titr 'B Titr' titrbold) (titrtge 'B Titrtge' titrtgebold) (traffic 'B Traffic' traffic) (vahid 'B Vahid' vahidbold) (yagut 'B Yagut' yagut) (yas 'B Yas' yas) (yekan 'B Yekan' yekan) (zar 'B Zar' zar) (ziba 'B Ziba' ziba) (andalus 'Andalus' andalus) (arshia 'B Arshia' arshia) (iraniansans 'IranSansZ' iraniansans) (kamran 'B Kamran' kamran) (setareh 'B Setareh' setareh) (tawfig 'B Tawfig Outline' tawfig) (droidnaskh 'Droid Arabic Naskh' droidnaskhbold)
+// (fontName1 localFontName1 fontFileName1 [italic] [bold]) (fontName2 localFontName2 fontFileName2 [italic] [bold]) ...
+fonts_list = (badr 'B Badr' badr) (baran 'B Baran' baran) (bardiya 'B Bardiya' bardiya) (compset 'B Compset' compset) (davat 'B Davat' davat) (elham 'B Elham' elham) (esfehan 'B Esfehan' esfehanbold normal 700) (fantezy 'B Fantezy' fantezy) (farnaz 'B Farnaz' farnaz) (ferdosi 'B Ferdosi' ferdosi) (hamid 'B Hamid' hamid) (helal 'B Helal' helal) (homa 'B Homa' homa) (jadid 'B Jadid' jadidbold normal 700) (jalal 'B Jalal' jalal) (koodak 'B Koodak' koodakbold normal 700) (kourosh 'B Kourosh' kourosh normal 700) (lotus 'B Lotus' lotus) (mahsa 'B Mahsa' mahsa) (mehr 'B Mehr' mehrbold normal 700) (mitra 'B Mitra' mitra) (morvarid 'B Morvarid' morvarid) (narm 'B Narm' narm) (nasim 'B Nasim' nasimbold normal 700) (nazanin 'B Nazanin' nazanin) (roya 'B Roya' roya) (setareh 'B Setareh' setarehbold normal 700) (shiraz 'B Shiraz' shiraz) (sina 'B Sina' sinabold normal 700) (tabassom 'B Tabassom' tabassom) (tehran 'B Tehran' tehran) (titr 'B Titr' titrbold normal 700) (titrtge 'B Titrtge' titrtgebold normal 700) (traffic 'B Traffic' traffic) (vahid 'B Vahid' vahidbold normal 700) (yagut 'B Yagut' yagut) (yas 'B Yas' yas) (yekan 'B Yekan' yekan) (zar 'B Zar' zar) (ziba 'B Ziba' ziba) (andalus 'Andalus' andalus) (arshia 'B Arshia' arshia) (iraniansans 'IranSansZ' iraniansans) (kamran 'B Kamran' kamran) (setareh 'B Setareh' setareh) (tawfig 'B Tawfig Outline' tawfig) (droidnaskh 'Droid Arabic Naskh' droidnaskhbold normal 800) (droidnaskh 'Droid Arabic Naskh' droidnaskh)
 fonts_folder = 'fonts/'
 fonts_class = true
 
@@ -22,12 +22,13 @@ quote(str)
 fontface(font)
   @font-face
     font-family quote(font[0])
+    font-style: font[3] || normal;
+    font-weight: font[4] || 400;
     src url(fonts_folder+font[2]+'.eot')
     src local(font[1]),
+        url(fonts_folder+font[2]+'.eot') format('embedded-opentype'),
         url(fonts_folder+font[2]+'.woff') format('woff'),
         url(fonts_folder+font[2]+'.ttf') format('truetype')
-    font-weight normal
-    font-style normal
 
 for i in fonts_list
   fontface i
