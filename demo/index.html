@@ -127,5 +127,23 @@
   <script src="scale.fix.js"></script>
   <script src="http://alimd.github.io/libs/jquery/1.9.1/jquery.js"></script>
   <script src="script.js"></script>
-</body>
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["setCookieDomain", "*.github.io"]);
+    // you can set up to 5 custom variables for each visitor
+    _paq.push(["setCustomVariable", 1, "version", "1.0", "visit"]);
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+      var u=(("https:" == document.location.protocol) ? "https" : "http") + "://a.1dws.com/";
+      _paq.push(["setTrackerUrl", u+"piwik.php"]);
+      _paq.push(["setSiteId", "25"]);
+      var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+      g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Piwik Code -->
+  </body>
 </html>
