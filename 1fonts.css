@@ -73,8 +73,8 @@
 .tehran{font-family:'B Tehran',tehran,Verdana,Geneva,sans-serif}
 @font-face{font-family:'titr';font-style:normal;font-weight:700;src:url("fonts/titrbold.eot");src:local('B Titr'),url("fonts/titrbold.eot") format('embedded-opentype'),url("fonts/titrbold.woff") format('woff'),url("fonts/titrbold.ttf") format('truetype')}
 .titr{font-family:'B Titr',titr,Verdana,Geneva,sans-serif}
-@font-face{font-family:'titrtge';font-style:normal;font-weight:700;src:url("fonts/titrtgebold.eot");src:local('B Titrtge'),url("fonts/titrtgebold.eot") format('embedded-opentype'),url("fonts/titrtgebold.woff") format('woff'),url("fonts/titrtgebold.ttf") format('truetype')}
-.titrtge{font-family:'B Titrtge',titrtge,Verdana,Geneva,sans-serif}
+@font-face{font-family:'titrtge';font-style:normal;font-weight:700;src:url("fonts/titrtgebold.eot");src:local('B Titr TG E'),url("fonts/titrtgebold.eot") format('embedded-opentype'),url("fonts/titrtgebold.woff") format('woff'),url("fonts/titrtgebold.ttf") format('truetype')}
+.titrtge{font-family:'B Titr TG E',titrtge,Verdana,Geneva,sans-serif}
 @font-face{font-family:'traffic';font-style:normal;font-weight:400;src:url("fonts/traffic.eot");src:local('B Traffic'),url("fonts/traffic.eot") format('embedded-opentype'),url("fonts/traffic.woff") format('woff'),url("fonts/traffic.ttf") format('truetype')}
 .traffic{font-family:'B Traffic',traffic,Verdana,Geneva,sans-serif}
 @font-face{font-family:'vahid';font-style:normal;font-weight:700;src:url("fonts/vahidbold.eot");src:local('B Vahid'),url("fonts/vahidbold.eot") format('embedded-opentype'),url("fonts/vahidbold.woff") format('woff'),url("fonts/vahidbold.ttf") format('truetype')}
