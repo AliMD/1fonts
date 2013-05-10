@@ -10,5 +10,4 @@ Desktop.ini
 $RECYCLE.BIN/
 
 #SublimeText
-*.sublime-project
-*.sublime-workspace
+*.sublime-*
