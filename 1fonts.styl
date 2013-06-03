@@ -1,9 +1,11 @@
+@css{
 /*
  * 1Fonts v1.3 - Persian Web Fonts.
  * http://alimd.github.io/1fonts/
  *
  * 1Fonts by Ali Mihandoost is licensed under a Creative Commons Attribution 3.0 Unported License.
  */
+}
 
 // Configuration - You can edit for costume build
 fonts_folder = 'fonts/'
@@ -68,17 +70,19 @@ quote(str)
 fontface(font)
   @font-face
     font-family quote(font[0])
-    font-style: font[3] || normal;
-    font-weight: font[4] || 400;
+    font-style font[3] || normal
+    font-weight font[4] || 400
     src url(fonts_folder+font[2]+'.eot')
     src local(font[1]),
         url(fonts_folder+font[2]+'.eot') format('embedded-opentype'),
         url(fonts_folder+font[2]+'.woff') format('woff'),
         url(fonts_folder+font[2]+'.ttf') format('truetype')
 
-for i in fonts_list
-  fontface i
-  if fonts_class
-    {'.'+i[0]}
-      font-family i[1], i[0], Verdana, Geneva, sans-serif
+tmp = 0
+for font,i in fonts_list
+  fontface font
+  tmp[i] = font[1]
+  if !!fonts_class && tmp[i - 1] != tmp[i]
+    {'.'+font[0]}
+      font-family font[1], font[0], Verdana, Geneva, sans-serif
       -webkit-font-smoothing antialiased
