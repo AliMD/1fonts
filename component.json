@@ -1,0 +1,9 @@
+{
+  "name": "1Fonts",
+  "version": "1.3",
+  "styles": "1fonts.styl",
+  "author": "Ali Mihandoost",
+  "description": "Persian Web Fonts",
+  "keywords": ["1Fonts", "font", "web fonts", "persian fonts", "persian web fonts"],
+  "license": "Creative Commons Attribution 3.0"
+}
