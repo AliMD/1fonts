@@ -18,7 +18,7 @@ All fonts optimized and fixed issues for using in the web.
 * Compatible with CSS4, Stylus, SASS, LESS
 
 ### Demo
-[alimd.github.io/1fonts](http://alimd.github.io/1fonts/)
+Check 1Font [website](http://alimd.github.io/1fonts/).
 
 ### How to use
 
@@ -62,4 +62,4 @@ Please ask any questions about web technologies [here][support]
 Supported by <b>The<i>One</i>Developers.</b>
 
 ### License
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">1Fonts</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ali.md" property="cc:attributionName" rel="cc:attributionURL">Ali Mihandoost</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>. 
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">1Fonts</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ali.md" property="cc:attributionName" rel="cc:attributionURL">Ali Mihandoost</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.  
