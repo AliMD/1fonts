@@ -1,9 +1,8 @@
-[home]: http://github.com/AliMD/1Fonts "Persian Web Fonts"
 [issues]: http://github.com/AliMD/1Fonts/issues "Issues · AliMD/1Fonts"
 [support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
 
 ## Contributing
-**♥** [this][home] project and want to get involved?  
+**♥** This project and want to get involved?  
 Thanks! There are plenty of ways you can help!  
 
 ### Report issues
