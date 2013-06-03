@@ -163,6 +163,10 @@ section {
   padding-bottom:50px;
 }
 
+section ul{
+  padding-left: 20px;
+}
+
 small {
   font-size:11px;
 }
