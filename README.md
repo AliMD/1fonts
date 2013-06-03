@@ -10,7 +10,7 @@ All fonts optimized and fixed issues for using in the web.
 * 51 Persian Web Fonts
 * Easy to use
 * Cross Browser Compatibility (IE5+)
-* 18.9KB CSS file size (for all fonts)
+* 2.9KB CSS file size (minify and gzip)
 * Include 3 font types (eot, ttf, woff)
 * Use local fonts (if available)
 * Change font by class name
