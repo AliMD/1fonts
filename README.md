@@ -18,14 +18,14 @@ All fonts optimized and fixed issues for using in the web.
 * Compatible with CSS4, Stylus, SASS, LESS
 
 ### Demo
-[alimd.github.io/1fonts](http://alimd.github.io/1fonts)
+[alimd.github.io/1fonts](http://alimd.github.io/1fonts/)
 
 ### How to use
 
 #### Use CSS
 Copy the code as the first element in the `<head>` of your HTML document.
 ```css
-<link href='http://alimd.github.io/libs/1fonts/1/1fonts.css' rel='stylesheet' type='text/css' />
+<link href='http://alimd.github.io/libs/1fonts/1.3/1fonts.css' rel='stylesheet' type='text/css' />
 ```
 #### Use Stylus 
 Or include `1fonts.styl` in your stylus project
