@@ -8,6 +8,7 @@
 // Configuration - You can edit for costume build
 fonts_folder = 'fonts/'
 fonts_class = true
+
 // (fontName1 localFontName1 fontFileName1 [italic] [bold]), (fontName2 localFontName2 fontFileName2 [italic] [bold]), ...
 fonts_list = (badr 'B Badr' badr),
   (baran 'B Baran' baran),
@@ -80,3 +81,4 @@ for i in fonts_list
   if fonts_class
     {'.'+i[0]}
       font-family i[1], i[0], Verdana, Geneva, sans-serif
+      -webkit-font-smoothing antialiased
