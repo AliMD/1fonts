@@ -1,5 +1,7 @@
 #### HEAD (now)
   * Update project structure
+  * Change project license
+  
 #### v1.3 (5/11/13)
   * Add more fonts
   * Fix some bugs
