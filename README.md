@@ -25,7 +25,7 @@ Check 1Font [website](http://alimd.github.io/1fonts/).
 #### Use CSS
 Copy the code as the first element in the `<head>` of your HTML document.
 ```css
-<link href='http://alimd.github.io/libs/1fonts/1.3/1fonts.css' rel='stylesheet' type='text/css' />
+<link href='http://alimd.github.io/libs/1fonts/1.4/1fonts.css' rel='stylesheet' type='text/css' />
 ```
 #### Use Stylus 
 Or include `1fonts.styl` in your stylus project
