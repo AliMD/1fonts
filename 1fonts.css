@@ -1,116 +1,227 @@
-/*
- * 1Fonts v1.4 - Persian Web Fonts.
- * http://alimd.github.io/1fonts/
+/* 
+ * 1Fonts v1.5.0
+ * Arabic/Persian Web Fonts.
  *
- * 1Fonts by Ali Mihandoost is licensed under a Creative Commons Attribution 3.0 Unported License.
+ * http://alimd.github.io/1fonts/
+ * License: http://alimd.mit-license.org/
  */
+@font-face{font-family:'badr_ttf';font-style:normal;font-weight:400;src:url("fonts/badr.ttf")}
 @font-face{font-family:'badr';font-style:normal;font-weight:400;src:url("fonts/badr.eot");src:local('B Badr'),url("fonts/badr.eot") format('embedded-opentype'),url("fonts/badr.woff") format('woff'),url("fonts/badr.ttf") format('truetype')}
+@font-face{font-family:'baran_ttf';font-style:normal;font-weight:400;src:url("fonts/baran.ttf")}
 @font-face{font-family:'baran';font-style:normal;font-weight:400;src:url("fonts/baran.eot");src:local('B Baran'),url("fonts/baran.eot") format('embedded-opentype'),url("fonts/baran.woff") format('woff'),url("fonts/baran.ttf") format('truetype')}
+@font-face{font-family:'bardiya_ttf';font-style:normal;font-weight:400;src:url("fonts/bardiya.ttf")}
 @font-face{font-family:'bardiya';font-style:normal;font-weight:400;src:url("fonts/bardiya.eot");src:local('B Bardiya'),url("fonts/bardiya.eot") format('embedded-opentype'),url("fonts/bardiya.woff") format('woff'),url("fonts/bardiya.ttf") format('truetype')}
+@font-face{font-family:'compset_ttf';font-style:normal;font-weight:400;src:url("fonts/compset.ttf")}
 @font-face{font-family:'compset';font-style:normal;font-weight:400;src:url("fonts/compset.eot");src:local('B Compset'),url("fonts/compset.eot") format('embedded-opentype'),url("fonts/compset.woff") format('woff'),url("fonts/compset.ttf") format('truetype')}
+@font-face{font-family:'davat_ttf';font-style:normal;font-weight:400;src:url("fonts/davat.ttf")}
 @font-face{font-family:'davat';font-style:normal;font-weight:400;src:url("fonts/davat.eot");src:local('B Davat'),url("fonts/davat.eot") format('embedded-opentype'),url("fonts/davat.woff") format('woff'),url("fonts/davat.ttf") format('truetype')}
+@font-face{font-family:'elham_ttf';font-style:normal;font-weight:400;src:url("fonts/elham.ttf")}
 @font-face{font-family:'elham';font-style:normal;font-weight:400;src:url("fonts/elham.eot");src:local('B Elham'),url("fonts/elham.eot") format('embedded-opentype'),url("fonts/elham.woff") format('woff'),url("fonts/elham.ttf") format('truetype')}
+@font-face{font-family:'esfehan_ttf';font-style:normal;font-weight:700;src:url("fonts/esfehanbold.ttf")}
 @font-face{font-family:'esfehan';font-style:normal;font-weight:700;src:url("fonts/esfehanbold.eot");src:local('B Esfehan'),url("fonts/esfehanbold.eot") format('embedded-opentype'),url("fonts/esfehanbold.woff") format('woff'),url("fonts/esfehanbold.ttf") format('truetype')}
+@font-face{font-family:'fantezy_ttf';font-style:normal;font-weight:400;src:url("fonts/fantezy.ttf")}
 @font-face{font-family:'fantezy';font-style:normal;font-weight:400;src:url("fonts/fantezy.eot");src:local('B Fantezy'),url("fonts/fantezy.eot") format('embedded-opentype'),url("fonts/fantezy.woff") format('woff'),url("fonts/fantezy.ttf") format('truetype')}
+@font-face{font-family:'farnaz_ttf';font-style:normal;font-weight:400;src:url("fonts/farnaz.ttf")}
 @font-face{font-family:'farnaz';font-style:normal;font-weight:400;src:url("fonts/farnaz.eot");src:local('B Farnaz'),url("fonts/farnaz.eot") format('embedded-opentype'),url("fonts/farnaz.woff") format('woff'),url("fonts/farnaz.ttf") format('truetype')}
+@font-face{font-family:'ferdosi_ttf';font-style:normal;font-weight:400;src:url("fonts/ferdosi.ttf")}
 @font-face{font-family:'ferdosi';font-style:normal;font-weight:400;src:url("fonts/ferdosi.eot");src:local('B Ferdosi'),url("fonts/ferdosi.eot") format('embedded-opentype'),url("fonts/ferdosi.woff") format('woff'),url("fonts/ferdosi.ttf") format('truetype')}
+@font-face{font-family:'hamid_ttf';font-style:normal;font-weight:400;src:url("fonts/hamid.ttf")}
 @font-face{font-family:'hamid';font-style:normal;font-weight:400;src:url("fonts/hamid.eot");src:local('B Hamid'),url("fonts/hamid.eot") format('embedded-opentype'),url("fonts/hamid.woff") format('woff'),url("fonts/hamid.ttf") format('truetype')}
+@font-face{font-family:'helal_ttf';font-style:normal;font-weight:400;src:url("fonts/helal.ttf")}
 @font-face{font-family:'helal';font-style:normal;font-weight:400;src:url("fonts/helal.eot");src:local('B Helal'),url("fonts/helal.eot") format('embedded-opentype'),url("fonts/helal.woff") format('woff'),url("fonts/helal.ttf") format('truetype')}
+@font-face{font-family:'homa_ttf';font-style:normal;font-weight:400;src:url("fonts/homa.ttf")}
 @font-face{font-family:'homa';font-style:normal;font-weight:400;src:url("fonts/homa.eot");src:local('B Homa'),url("fonts/homa.eot") format('embedded-opentype'),url("fonts/homa.woff") format('woff'),url("fonts/homa.ttf") format('truetype')}
+@font-face{font-family:'jadid_ttf';font-style:normal;font-weight:700;src:url("fonts/jadidbold.ttf")}
 @font-face{font-family:'jadid';font-style:normal;font-weight:700;src:url("fonts/jadidbold.eot");src:local('B Jadid'),url("fonts/jadidbold.eot") format('embedded-opentype'),url("fonts/jadidbold.woff") format('woff'),url("fonts/jadidbold.ttf") format('truetype')}
+@font-face{font-family:'jalal_ttf';font-style:normal;font-weight:400;src:url("fonts/jalal.ttf")}
 @font-face{font-family:'jalal';font-style:normal;font-weight:400;src:url("fonts/jalal.eot");src:local('B Jalal'),url("fonts/jalal.eot") format('embedded-opentype'),url("fonts/jalal.woff") format('woff'),url("fonts/jalal.ttf") format('truetype')}
+@font-face{font-family:'koodak_ttf';font-style:normal;font-weight:700;src:url("fonts/koodakbold.ttf")}
 @font-face{font-family:'koodak';font-style:normal;font-weight:700;src:url("fonts/koodakbold.eot");src:local('B Koodak'),url("fonts/koodakbold.eot") format('embedded-opentype'),url("fonts/koodakbold.woff") format('woff'),url("fonts/koodakbold.ttf") format('truetype')}
+@font-face{font-family:'kourosh_ttf';font-style:normal;font-weight:700;src:url("fonts/kouroshbold.ttf")}
 @font-face{font-family:'kourosh';font-style:normal;font-weight:700;src:url("fonts/kouroshbold.eot");src:local('B Kourosh'),url("fonts/kouroshbold.eot") format('embedded-opentype'),url("fonts/kouroshbold.woff") format('woff'),url("fonts/kouroshbold.ttf") format('truetype')}
+@font-face{font-family:'lotus_ttf';font-style:normal;font-weight:400;src:url("fonts/lotus.ttf")}
 @font-face{font-family:'lotus';font-style:normal;font-weight:400;src:url("fonts/lotus.eot");src:local('B Lotus'),url("fonts/lotus.eot") format('embedded-opentype'),url("fonts/lotus.woff") format('woff'),url("fonts/lotus.ttf") format('truetype')}
+@font-face{font-family:'mahsa_ttf';font-style:normal;font-weight:400;src:url("fonts/mahsa.ttf")}
 @font-face{font-family:'mahsa';font-style:normal;font-weight:400;src:url("fonts/mahsa.eot");src:local('B Mahsa'),url("fonts/mahsa.eot") format('embedded-opentype'),url("fonts/mahsa.woff") format('woff'),url("fonts/mahsa.ttf") format('truetype')}
+@font-face{font-family:'mehr_ttf';font-style:normal;font-weight:700;src:url("fonts/mehrbold.ttf")}
 @font-face{font-family:'mehr';font-style:normal;font-weight:700;src:url("fonts/mehrbold.eot");src:local('B Mehr'),url("fonts/mehrbold.eot") format('embedded-opentype'),url("fonts/mehrbold.woff") format('woff'),url("fonts/mehrbold.ttf") format('truetype')}
+@font-face{font-family:'mitra_ttf';font-style:normal;font-weight:400;src:url("fonts/mitra.ttf")}
 @font-face{font-family:'mitra';font-style:normal;font-weight:400;src:url("fonts/mitra.eot");src:local('B Mitra'),url("fonts/mitra.eot") format('embedded-opentype'),url("fonts/mitra.woff") format('woff'),url("fonts/mitra.ttf") format('truetype')}
+@font-face{font-family:'morvarid_ttf';font-style:normal;font-weight:400;src:url("fonts/morvarid.ttf")}
 @font-face{font-family:'morvarid';font-style:normal;font-weight:400;src:url("fonts/morvarid.eot");src:local('B Morvarid'),url("fonts/morvarid.eot") format('embedded-opentype'),url("fonts/morvarid.woff") format('woff'),url("fonts/morvarid.ttf") format('truetype')}
+@font-face{font-family:'narm_ttf';font-style:normal;font-weight:400;src:url("fonts/narm.ttf")}
 @font-face{font-family:'narm';font-style:normal;font-weight:400;src:url("fonts/narm.eot");src:local('B Narm'),url("fonts/narm.eot") format('embedded-opentype'),url("fonts/narm.woff") format('woff'),url("fonts/narm.ttf") format('truetype')}
+@font-face{font-family:'nasim_ttf';font-style:normal;font-weight:700;src:url("fonts/nasimbold.ttf")}
 @font-face{font-family:'nasim';font-style:normal;font-weight:700;src:url("fonts/nasimbold.eot");src:local('B Nasim'),url("fonts/nasimbold.eot") format('embedded-opentype'),url("fonts/nasimbold.woff") format('woff'),url("fonts/nasimbold.ttf") format('truetype')}
+@font-face{font-family:'nazanin_ttf';font-style:normal;font-weight:400;src:url("fonts/nazanin.ttf")}
 @font-face{font-family:'nazanin';font-style:normal;font-weight:400;src:url("fonts/nazanin.eot");src:local('B Nazanin'),url("fonts/nazanin.eot") format('embedded-opentype'),url("fonts/nazanin.woff") format('woff'),url("fonts/nazanin.ttf") format('truetype')}
+@font-face{font-family:'roya_ttf';font-style:normal;font-weight:400;src:url("fonts/roya.ttf")}
 @font-face{font-family:'roya';font-style:normal;font-weight:400;src:url("fonts/roya.eot");src:local('B Roya'),url("fonts/roya.eot") format('embedded-opentype'),url("fonts/roya.woff") format('woff'),url("fonts/roya.ttf") format('truetype')}
+@font-face{font-family:'setareh_ttf';font-style:normal;font-weight:700;src:url("fonts/setarehbold.ttf")}
 @font-face{font-family:'setareh';font-style:normal;font-weight:700;src:url("fonts/setarehbold.eot");src:local('B Setareh'),url("fonts/setarehbold.eot") format('embedded-opentype'),url("fonts/setarehbold.woff") format('woff'),url("fonts/setarehbold.ttf") format('truetype')}
+@font-face{font-family:'shiraz_ttf';font-style:normal;font-weight:400;src:url("fonts/shiraz.ttf")}
 @font-face{font-family:'shiraz';font-style:normal;font-weight:400;src:url("fonts/shiraz.eot");src:local('B Shiraz'),url("fonts/shiraz.eot") format('embedded-opentype'),url("fonts/shiraz.woff") format('woff'),url("fonts/shiraz.ttf") format('truetype')}
+@font-face{font-family:'sina_ttf';font-style:normal;font-weight:700;src:url("fonts/sinabold.ttf")}
 @font-face{font-family:'sina';font-style:normal;font-weight:700;src:url("fonts/sinabold.eot");src:local('B Sina'),url("fonts/sinabold.eot") format('embedded-opentype'),url("fonts/sinabold.woff") format('woff'),url("fonts/sinabold.ttf") format('truetype')}
+@font-face{font-family:'tabassom_ttf';font-style:normal;font-weight:400;src:url("fonts/tabassom.ttf")}
 @font-face{font-family:'tabassom';font-style:normal;font-weight:400;src:url("fonts/tabassom.eot");src:local('B Tabassom'),url("fonts/tabassom.eot") format('embedded-opentype'),url("fonts/tabassom.woff") format('woff'),url("fonts/tabassom.ttf") format('truetype')}
+@font-face{font-family:'tehran_ttf';font-style:normal;font-weight:400;src:url("fonts/tehran.ttf")}
 @font-face{font-family:'tehran';font-style:normal;font-weight:400;src:url("fonts/tehran.eot");src:local('B Tehran'),url("fonts/tehran.eot") format('embedded-opentype'),url("fonts/tehran.woff") format('woff'),url("fonts/tehran.ttf") format('truetype')}
+@font-face{font-family:'titr_ttf';font-style:normal;font-weight:700;src:url("fonts/titrbold.ttf")}
 @font-face{font-family:'titr';font-style:normal;font-weight:700;src:url("fonts/titrbold.eot");src:local('B Titr'),url("fonts/titrbold.eot") format('embedded-opentype'),url("fonts/titrbold.woff") format('woff'),url("fonts/titrbold.ttf") format('truetype')}
+@font-face{font-family:'titrtge_ttf';font-style:normal;font-weight:700;src:url("fonts/titrtgebold.ttf")}
 @font-face{font-family:'titrtge';font-style:normal;font-weight:700;src:url("fonts/titrtgebold.eot");src:local('B Titr TG E'),url("fonts/titrtgebold.eot") format('embedded-opentype'),url("fonts/titrtgebold.woff") format('woff'),url("fonts/titrtgebold.ttf") format('truetype')}
+@font-face{font-family:'traffic_ttf';font-style:normal;font-weight:400;src:url("fonts/traffic.ttf")}
 @font-face{font-family:'traffic';font-style:normal;font-weight:400;src:url("fonts/traffic.eot");src:local('B Traffic'),url("fonts/traffic.eot") format('embedded-opentype'),url("fonts/traffic.woff") format('woff'),url("fonts/traffic.ttf") format('truetype')}
+@font-face{font-family:'vahid_ttf';font-style:normal;font-weight:700;src:url("fonts/vahidbold.ttf")}
 @font-face{font-family:'vahid';font-style:normal;font-weight:700;src:url("fonts/vahidbold.eot");src:local('B Vahid'),url("fonts/vahidbold.eot") format('embedded-opentype'),url("fonts/vahidbold.woff") format('woff'),url("fonts/vahidbold.ttf") format('truetype')}
+@font-face{font-family:'yagut_ttf';font-style:normal;font-weight:400;src:url("fonts/yagut.ttf")}
 @font-face{font-family:'yagut';font-style:normal;font-weight:400;src:url("fonts/yagut.eot");src:local('B Yagut'),url("fonts/yagut.eot") format('embedded-opentype'),url("fonts/yagut.woff") format('woff'),url("fonts/yagut.ttf") format('truetype')}
+@font-face{font-family:'yas_ttf';font-style:normal;font-weight:400;src:url("fonts/yas.ttf")}
 @font-face{font-family:'yas';font-style:normal;font-weight:400;src:url("fonts/yas.eot");src:local('B Yas'),url("fonts/yas.eot") format('embedded-opentype'),url("fonts/yas.woff") format('woff'),url("fonts/yas.ttf") format('truetype')}
+@font-face{font-family:'yekan_ttf';font-style:normal;font-weight:400;src:url("fonts/yekan.ttf")}
 @font-face{font-family:'yekan';font-style:normal;font-weight:400;src:url("fonts/yekan.eot");src:local('B Yekan'),url("fonts/yekan.eot") format('embedded-opentype'),url("fonts/yekan.woff") format('woff'),url("fonts/yekan.ttf") format('truetype')}
+@font-face{font-family:'zar_ttf';font-style:normal;font-weight:400;src:url("fonts/zar.ttf")}
 @font-face{font-family:'zar';font-style:normal;font-weight:400;src:url("fonts/zar.eot");src:local('B Zar'),url("fonts/zar.eot") format('embedded-opentype'),url("fonts/zar.woff") format('woff'),url("fonts/zar.ttf") format('truetype')}
+@font-face{font-family:'ziba_ttf';font-style:normal;font-weight:400;src:url("fonts/ziba.ttf")}
 @font-face{font-family:'ziba';font-style:normal;font-weight:400;src:url("fonts/ziba.eot");src:local('B Ziba'),url("fonts/ziba.eot") format('embedded-opentype'),url("fonts/ziba.woff") format('woff'),url("fonts/ziba.ttf") format('truetype')}
+@font-face{font-family:'andalus_ttf';font-style:normal;font-weight:400;src:url("fonts/andalus.ttf")}
 @font-face{font-family:'andalus';font-style:normal;font-weight:400;src:url("fonts/andalus.eot");src:local('Andalus'),url("fonts/andalus.eot") format('embedded-opentype'),url("fonts/andalus.woff") format('woff'),url("fonts/andalus.ttf") format('truetype')}
+@font-face{font-family:'arshia_ttf';font-style:normal;font-weight:400;src:url("fonts/arshia.ttf")}
 @font-face{font-family:'arshia';font-style:normal;font-weight:400;src:url("fonts/arshia.eot");src:local('B Arshia'),url("fonts/arshia.eot") format('embedded-opentype'),url("fonts/arshia.woff") format('woff'),url("fonts/arshia.ttf") format('truetype')}
+@font-face{font-family:'iraniansans_ttf';font-style:normal;font-weight:400;src:url("fonts/iraniansans.ttf")}
 @font-face{font-family:'iraniansans';font-style:normal;font-weight:400;src:url("fonts/iraniansans.eot");src:local('IranSansZ'),url("fonts/iraniansans.eot") format('embedded-opentype'),url("fonts/iraniansans.woff") format('woff'),url("fonts/iraniansans.ttf") format('truetype')}
+@font-face{font-family:'kamran_ttf';font-style:normal;font-weight:400;src:url("fonts/kamran.ttf")}
 @font-face{font-family:'kamran';font-style:normal;font-weight:400;src:url("fonts/kamran.eot");src:local('B Kamran'),url("fonts/kamran.eot") format('embedded-opentype'),url("fonts/kamran.woff") format('woff'),url("fonts/kamran.ttf") format('truetype')}
+@font-face{font-family:'tawfig_ttf';font-style:normal;font-weight:400;src:url("fonts/tawfig.ttf")}
 @font-face{font-family:'tawfig';font-style:normal;font-weight:400;src:url("fonts/tawfig.eot");src:local('B Tawfig Outline'),url("fonts/tawfig.eot") format('embedded-opentype'),url("fonts/tawfig.woff") format('woff'),url("fonts/tawfig.ttf") format('truetype')}
+@font-face{font-family:'droidnaskh_ttf';font-style:normal;font-weight:700;src:url("fonts/droidnaskhbold.ttf")}
 @font-face{font-family:'droidnaskh';font-style:normal;font-weight:700;src:url("fonts/droidnaskhbold.eot");src:local('Droid Arabic Naskh'),url("fonts/droidnaskhbold.eot") format('embedded-opentype'),url("fonts/droidnaskhbold.woff") format('woff'),url("fonts/droidnaskhbold.ttf") format('truetype')}
+@font-face{font-family:'droidnaskh_ttf';font-style:normal;font-weight:400;src:url("fonts/droidnaskh.ttf")}
 @font-face{font-family:'droidnaskh';font-style:normal;font-weight:400;src:url("fonts/droidnaskh.eot");src:local('Droid Arabic Naskh'),url("fonts/droidnaskh.eot") format('embedded-opentype'),url("fonts/droidnaskh.woff") format('woff'),url("fonts/droidnaskh.ttf") format('truetype')}
+@font-face{font-family:'amiri_ttf';font-style:normal;font-weight:700;src:url("fonts/amiribold.ttf")}
 @font-face{font-family:'amiri';font-style:normal;font-weight:700;src:url("fonts/amiribold.eot");src:local('amiri'),url("fonts/amiribold.eot") format('embedded-opentype'),url("fonts/amiribold.woff") format('woff'),url("fonts/amiribold.ttf") format('truetype')}
+@font-face{font-family:'amiri_ttf';font-style:italic;font-weight:400;src:url("fonts/amiriitalic.ttf")}
 @font-face{font-family:'amiri';font-style:italic;font-weight:400;src:url("fonts/amiriitalic.eot");src:local('amiri'),url("fonts/amiriitalic.eot") format('embedded-opentype'),url("fonts/amiriitalic.woff") format('woff'),url("fonts/amiriitalic.ttf") format('truetype')}
+@font-face{font-family:'amiri_ttf';font-style:italic;font-weight:700;src:url("fonts/amiriitalicbold.ttf")}
 @font-face{font-family:'amiri';font-style:italic;font-weight:700;src:url("fonts/amiriitalicbold.eot");src:local('amiri'),url("fonts/amiriitalicbold.eot") format('embedded-opentype'),url("fonts/amiriitalicbold.woff") format('woff'),url("fonts/amiriitalicbold.ttf") format('truetype')}
+@font-face{font-family:'amiri_ttf';font-style:normal;font-weight:400;src:url("fonts/amiri.ttf")}
 @font-face{font-family:'amiri';font-style:normal;font-weight:400;src:url("fonts/amiri.eot");src:local('amiri'),url("fonts/amiri.eot") format('embedded-opentype'),url("fonts/amiri.woff") format('woff'),url("fonts/amiri.ttf") format('truetype')}
+@font-face{font-family:'droidkufi_ttf';font-style:normal;font-weight:700;src:url("fonts/droidkufibold.ttf")}
 @font-face{font-family:'droidkufi';font-style:normal;font-weight:700;src:url("fonts/droidkufibold.eot");src:local('Droid Arabic Kufi'),url("fonts/droidkufibold.eot") format('embedded-opentype'),url("fonts/droidkufibold.woff") format('woff'),url("fonts/droidkufibold.ttf") format('truetype')}
+@font-face{font-family:'droidkufi_ttf';font-style:normal;font-weight:400;src:url("fonts/droidkufi.ttf")}
 @font-face{font-family:'droidkufi';font-style:normal;font-weight:400;src:url("fonts/droidkufi.eot");src:local('Droid Arabic Kufi'),url("fonts/droidkufi.eot") format('embedded-opentype'),url("fonts/droidkufi.woff") format('woff'),url("fonts/droidkufi.ttf") format('truetype')}
+@font-face{font-family:'scheherazade_ttf';font-style:normal;font-weight:400;src:url("fonts/scheherazade.ttf")}
 @font-face{font-family:'scheherazade';font-style:normal;font-weight:400;src:url("fonts/scheherazade.eot");src:local('Scheherazade'),url("fonts/scheherazade.eot") format('embedded-opentype'),url("fonts/scheherazade.woff") format('woff'),url("fonts/scheherazade.ttf") format('truetype')}
+@font-face{font-family:'lateef_ttf';font-style:normal;font-weight:400;src:url("fonts/lateef.ttf")}
 @font-face{font-family:'lateef';font-style:normal;font-weight:400;src:url("fonts/lateef.eot");src:local('Lateef'),url("fonts/lateef.eot") format('embedded-opentype'),url("fonts/lateef.woff") format('woff'),url("fonts/lateef.ttf") format('truetype')}
+@font-face{font-family:'thabit_ttf';font-style:normal;font-weight:700;src:url("fonts/thabitbold.ttf")}
 @font-face{font-family:'thabit';font-style:normal;font-weight:700;src:url("fonts/thabitbold.eot");src:local('Thabit'),url("fonts/thabitbold.eot") format('embedded-opentype'),url("fonts/thabitbold.woff") format('woff'),url("fonts/thabitbold.ttf") format('truetype')}
+@font-face{font-family:'thabit_ttf';font-style:italic;font-weight:400;src:url("fonts/thabititalic.ttf")}
 @font-face{font-family:'thabit';font-style:italic;font-weight:400;src:url("fonts/thabititalic.eot");src:local('Thabit'),url("fonts/thabititalic.eot") format('embedded-opentype'),url("fonts/thabititalic.woff") format('woff'),url("fonts/thabititalic.ttf") format('truetype')}
+@font-face{font-family:'thabit_ttf';font-style:italic;font-weight:700;src:url("fonts/thabititalicbold.ttf")}
 @font-face{font-family:'thabit';font-style:italic;font-weight:700;src:url("fonts/thabititalicbold.eot");src:local('Thabit'),url("fonts/thabititalicbold.eot") format('embedded-opentype'),url("fonts/thabititalicbold.woff") format('woff'),url("fonts/thabititalicbold.ttf") format('truetype')}
+@font-face{font-family:'thabit_ttf';font-style:normal;font-weight:400;src:url("fonts/thabit.ttf")}
 @font-face{font-family:'thabit';font-style:normal;font-weight:400;src:url("fonts/thabit.eot");src:local('Thabit'),url("fonts/thabit.eot") format('embedded-opentype'),url("fonts/thabit.woff") format('woff'),url("fonts/thabit.ttf") format('truetype')}
 .badr{font-family:'B Badr',badr,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .badr{font-family:badr_ttf}
 .baran{font-family:'B Baran',baran,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .baran{font-family:baran_ttf}
 .bardiya{font-family:'B Bardiya',bardiya,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .bardiya{font-family:bardiya_ttf}
 .compset{font-family:'B Compset',compset,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .compset{font-family:compset_ttf}
 .davat{font-family:'B Davat',davat,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .davat{font-family:davat_ttf}
 .elham{font-family:'B Elham',elham,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .elham{font-family:elham_ttf}
 .esfehan{font-family:'B Esfehan',esfehan,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .esfehan{font-family:esfehan_ttf}
 .fantezy{font-family:'B Fantezy',fantezy,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .fantezy{font-family:fantezy_ttf}
 .farnaz{font-family:'B Farnaz',farnaz,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .farnaz{font-family:farnaz_ttf}
 .ferdosi{font-family:'B Ferdosi',ferdosi,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .ferdosi{font-family:ferdosi_ttf}
 .hamid{font-family:'B Hamid',hamid,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .hamid{font-family:hamid_ttf}
 .helal{font-family:'B Helal',helal,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .helal{font-family:helal_ttf}
 .homa{font-family:'B Homa',homa,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .homa{font-family:homa_ttf}
 .jadid{font-family:'B Jadid',jadid,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .jadid{font-family:jadid_ttf}
 .jalal{font-family:'B Jalal',jalal,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .jalal{font-family:jalal_ttf}
 .koodak{font-family:'B Koodak',koodak,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .koodak{font-family:koodak_ttf}
 .kourosh{font-family:'B Kourosh',kourosh,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .kourosh{font-family:kourosh_ttf}
 .lotus{font-family:'B Lotus',lotus,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .lotus{font-family:lotus_ttf}
 .mahsa{font-family:'B Mahsa',mahsa,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .mahsa{font-family:mahsa_ttf}
 .mehr{font-family:'B Mehr',mehr,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .mehr{font-family:mehr_ttf}
 .mitra{font-family:'B Mitra',mitra,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .mitra{font-family:mitra_ttf}
 .morvarid{font-family:'B Morvarid',morvarid,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .morvarid{font-family:morvarid_ttf}
 .narm{font-family:'B Narm',narm,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .narm{font-family:narm_ttf}
 .nasim{font-family:'B Nasim',nasim,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .nasim{font-family:nasim_ttf}
 .nazanin{font-family:'B Nazanin',nazanin,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .nazanin{font-family:nazanin_ttf}
 .roya{font-family:'B Roya',roya,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .roya{font-family:roya_ttf}
 .setareh{font-family:'B Setareh',setareh,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .setareh{font-family:setareh_ttf}
 .shiraz{font-family:'B Shiraz',shiraz,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .shiraz{font-family:shiraz_ttf}
 .sina{font-family:'B Sina',sina,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .sina{font-family:sina_ttf}
 .tabassom{font-family:'B Tabassom',tabassom,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .tabassom{font-family:tabassom_ttf}
 .tehran{font-family:'B Tehran',tehran,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .tehran{font-family:tehran_ttf}
 .titr{font-family:'B Titr',titr,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .titr{font-family:titr_ttf}
 .titrtge{font-family:'B Titr TG E',titrtge,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .titrtge{font-family:titrtge_ttf}
 .traffic{font-family:'B Traffic',traffic,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .traffic{font-family:traffic_ttf}
 .vahid{font-family:'B Vahid',vahid,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .vahid{font-family:vahid_ttf}
 .yagut{font-family:'B Yagut',yagut,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .yagut{font-family:yagut_ttf}
 .yas{font-family:'B Yas',yas,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .yas{font-family:yas_ttf}
 .yekan{font-family:'B Yekan',yekan,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .yekan{font-family:yekan_ttf}
 .zar{font-family:'B Zar',zar,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .zar{font-family:zar_ttf}
 .ziba{font-family:'B Ziba',ziba,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .ziba{font-family:ziba_ttf}
 .andalus{font-family:'Andalus',andalus,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .andalus{font-family:andalus_ttf}
 .arshia{font-family:'B Arshia',arshia,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .arshia{font-family:arshia_ttf}
 .iraniansans{font-family:'IranSansZ',iraniansans,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .iraniansans{font-family:iraniansans_ttf}
 .kamran{font-family:'B Kamran',kamran,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .kamran{font-family:kamran_ttf}
 .tawfig{font-family:'B Tawfig Outline',tawfig,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .tawfig{font-family:tawfig_ttf}
 .droidnaskh{font-family:'Droid Arabic Naskh',droidnaskh,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .droidnaskh{font-family:droidnaskh_ttf}
 .amiri{font-family:'amiri',amiri,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .amiri{font-family:amiri_ttf}
 .droidkufi{font-family:'Droid Arabic Kufi',droidkufi,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .droidkufi{font-family:droidkufi_ttf}
 .scheherazade{font-family:'Scheherazade',scheherazade,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .scheherazade{font-family:scheherazade_ttf}
 .lateef{font-family:'Lateef',lateef,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .lateef{font-family:lateef_ttf}
 .thabit{font-family:'Thabit',thabit,Verdana,Geneva,sans-serif;-webkit-font-smoothing:antialiased}
+.ttf-only .thabit{font-family:thabit_ttf}

@@ -1,9 +1,10 @@
 @css{
-/*
- * 1Fonts v1.4 - Persian Web Fonts.
- * http://alimd.github.io/1fonts/
+/* 
+ * 1Fonts v1.5.0
+ * Arabic/Persian Web Fonts.
  *
- * 1Fonts by Ali Mihandoost is licensed under a Creative Commons Attribution 3.0 Unported License.
+ * http://alimd.github.io/1fonts/
+ * License: http://alimd.mit-license.org/
  */
 }
 
@@ -64,6 +65,8 @@ fonts_list = (badr 'B Badr' badr),
   (lateef 'Lateef' lateef),
   (thabit 'Thabit' thabitbold normal 700), (thabit 'Thabit' thabititalic italic 400), (thabit 'Thabit' thabititalicbold italic 700), (thabit 'Thabit' thabit)
 
+skipedfont = Verdana, Geneva, sans-serif
+
 quote(str)
   unquote("'")+str+unquote("'")
 
@@ -78,14 +81,26 @@ fontface(font)
         url(fonts_folder+font[2]+'.woff') format('woff'),
         url(fonts_folder+font[2]+'.ttf') format('truetype')
 
+fontface_ttf(font)
+  @font-face
+    font-family quote(font[0]+'_ttf')
+    font-style font[3] || normal
+    font-weight font[4] || 400
+    src url(fonts_folder+font[2]+'.ttf')
+
 for font in fonts_list
+  fontface_ttf font // for ttfonly browsers like android!
   fontface font
 
-if fonts_class 
+
+if fonts_class
   tmp = 0
   for font,i in fonts_list
     tmp[i] = font[1]
     if tmp[i - 1] != tmp[i]
       {'.'+font[0]}
-        font-family font[1], font[0], Verdana, Geneva, sans-serif
+        font-family font[1], font[0], skipedfont
         -webkit-font-smoothing antialiased
+      .ttf-only
+        {'.'+font[0]}
+          font-family font[0]+'_ttf'
