@@ -1,5 +1,4 @@
-#### v1.5 TODO (Future)
-  * [x] Add compare link to changelog
+#### v2 TODO (Future)
   * [ ] Improve Stylus Array
   * [ ] Add more fonts
   * [ ] Add woff2 for all fonts
@@ -9,7 +8,17 @@
   * [ ] New demo design
   * [ ] Dome article fot advertising
   * [ ] Basic video tutoril for noobdevs
+  * [ ] Update all versions and release
   * [View full chaneges](https://github.com/AliMD/1fonts/compare/v1.4...gh-pages)
+
+#### v1.5.0 (5/11/13)
+  * Register to bower
+  * Add compare link to changelog
+  * Add ttf-only
+  * ttf only browsers support
+  * Fix bug in android
+  * Change to MIT License
+  * [View full chaneges](https://github.com/AliMD/1fonts/compare/v1.4...v1.5.0)
 
 #### v1.4 (5/11/13)
   * Improve Project structure
