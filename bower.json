@@ -1,0 +1,33 @@
+{
+  "name": "1fonts",
+  "version": "1.5.0",
+  "homepage": "http://alimd.github.io/1fonts/",
+  "authors": [
+    "Ali Mihandoost <i@ali.md>"
+  ],
+  "description": "1Fonts is a Arabic/Persian fonts gallery for web developers.",
+  "main": "1fonts.css",
+  "keywords": [
+    "1fonts",
+    "1font",
+    "font",
+    "persian",
+    "arabic",
+    "css",
+    "stylus",
+    "1devs",
+    "alimd",
+    "ali",
+    "mihandoost"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "index.html",
+    ".nojekyll",
+    ".gitignore"
+  ]
+}
