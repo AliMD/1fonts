@@ -2,12 +2,12 @@
 [changelog]: ./CHANGELOG.md "1Fonts Change log"
 [contribute]: ./CONTRIBUTING.md "How to contribute"
 
-## 1Fonts - Persian Web Fonts.
-1Fonts is a Persian fonts gallery for web developers.  
+## 1Fonts - Arabic/Persian Web Fonts.
+1Fonts is a Arabic/Persian fonts gallery for web developers.  
 All fonts optimized and fixed issues for using in the web.
 
 ### Features
-* 51 Persian Web Fonts
+* 51 Arabic/Persian Web Fonts
 * Easy to use
 * Cross Browser Compatibility (IE5+)
 * 2.9KB CSS file size (minify and gzip)
